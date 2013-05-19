@@ -1,4 +1,4 @@
-name: Citizen's Handbook
+name: Citizens’ Handbook
 pygments: false
 safe: true
 exclude:
@@ -6,6 +6,8 @@ exclude:
     - README.md
     - less
     - bootstrap
+    - fontawesome
 timezone: "America/New_York"
 future: false
 permalink: "/:categories/:title/"
+domain: "http://public-information-group.github.io/citizens-handbook"

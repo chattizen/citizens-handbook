@@ -1,0 +1,20 @@
+---
+---
+/* TEAM */
+    Copywriter & Project Director: John Hawbaker
+    Twitter: @jehawbaker
+  
+    Copywriter & Project Director: David Morton
+    Twitter: @itypewords
+  
+    Developer & Project Director: Daniel Ryan
+    Twitter: @dryan
+    Site: http://dryan.com
+
+/* SITE */
+    Last update: {{ site.time | date: "%Y-%m-%d" }}
+    Language: English
+    Doctype: HTML5
+    IDE: Sublime Text
+    Standards: HTML5, CSS3
+    Components: Bootstrap, HTML5 Boilerplate, Jekyll, jQuery, Modernizr
