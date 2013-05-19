@@ -1,0 +1,12 @@
+---
+title: FAQs
+layout: default
+---
+
+        <h1>Frequently Asked Questions</h1>
+        <dl>
+        {% for post in site.categories.faq %}
+            <dt><h2>{{ post.title }}</h2></dt>
+            <dd>{{ post.content }}</dd>
+        {% endfor %}
+        </dl>
