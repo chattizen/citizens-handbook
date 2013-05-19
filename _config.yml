@@ -4,3 +4,4 @@ safe: true
 exclude: []
 timezone: 'America/New_York'
 future: false
+permalink: "/:categories/:title/"
