@@ -6,6 +6,7 @@ exclude:
     - README.md
     - less
     - bootstrap
+    - fontawesome
 timezone: "America/New_York"
 future: false
 permalink: "/:categories/:title/"
