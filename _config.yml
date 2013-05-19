@@ -5,7 +5,7 @@ exclude:
     - LICENSE.md
     - README.md
     - less
-    - .htaccess
+    - bootstrap
 timezone: "America/New_York"
 future: false
 permalink: "/:categories/:title/"
