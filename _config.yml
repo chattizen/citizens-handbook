@@ -1,7 +1,11 @@
 name: Citizen's Handbook
 pygments: false
 safe: true
-exclude: []
-timezone: 'America/New_York'
+exclude:
+    - LICENSE.md
+    - README.md
+    - less
+    - .htaccess
+timezone: "America/New_York"
 future: false
 permalink: "/:categories/:title/"
