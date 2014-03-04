@@ -1,4 +1,9 @@
-citizen-handbook
+Owners Manual
 ================
 
-A citizen's guide to their government in Hamilton County, Tennessee and the City of Chattanooga
+The Owners Manual provides an overview of local government. Four governing bodies are included:
+
++ City of Chattanooga
++ Hamilton County
++ Hamilton County Department of Education (HCDE)
++ Tennessee's 11th Judicial District
