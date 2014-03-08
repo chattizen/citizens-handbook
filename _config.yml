@@ -10,4 +10,5 @@ exclude:
 timezone: "America/New_York"
 future: false
 permalink: "/:categories/:title/"
-domain: "http://public-information-group.github.io/citizens-handbook"
+# domain: "http://public-information-group.github.io/citizens-handbook"
+domain: "http://localhost:4000/"
