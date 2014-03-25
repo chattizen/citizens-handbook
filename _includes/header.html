@@ -6,13 +6,18 @@
 
                     <nav class="nav-collapse collapse navbar-responsive-collapse">
                         <ul class="nav nav-pills">
-                        {% for category in site.categories %}
+                            <li><a href="/chattanooga/" title="Chattanooga">Chattanooga</a></li>
+                            <li><a href="/hamilton-county/" title="Hamilton County">Hamilton County</a></li>
+                            <li><a href="/hcde/" title="Department of Education">HCDE</a></li>
+                            <li><a href="/judicial/" title="Judicial">Judicial</a></li>
+
+                        <!-- {% for category in site.categories %}
                             {% if category[0] == 'faq' %}
                             <li><a href="/{{ category[0] }}/" title="FAQs">FAQs</a></li>
                             {% else %}
                             <li><a href="/{{ category[0] }}/" title="{{ category[0] | title }}">{{ category[0] | title }}</a></li>
                             {% endif %}
-                        {% endfor %}
+                        {% endfor %} -->
                         </ul>
                     </nav><!-- end .nav-responsive-collapse -->
                 </div><!-- end .container -->
