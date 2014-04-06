@@ -3,6 +3,12 @@ title: City Council
 layout: post
 categories:
     - chattanooga
+summary: | 
+    The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money. The council meets every Tuesday to vote on legislation.
+         | 
+    The city is divided into nine districts. Each district elects one council member. While all nine districts have about the same number of people living in them, each different has different priorities.
+         | 
+    The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of its business in two different sessions. Council members discuss legislation at a 3:30 p.m. agenda session. They vote on legislation at a 6 p.m. meeting.
 ---
 
 The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money. The council meets every Tuesday to vote on legislation.
@@ -19,7 +25,7 @@ The city is divided into nine districts. Each district elects one council member
 + District 8: Moses Freeman
 + District 9: Yusuf Hakeem
 
-## Meetings
+### Meetings
 
 The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of its business in two different sessions. Council members discuss legislation at a 3:30 p.m. agenda session. They vote on legislation at a 6 p.m. meeting.
 
@@ -27,7 +33,7 @@ The evening council meeting follows an agenda, which lists the order the City Co
 
 [Agendas and minutes online](http://www.chattanooga.gov/city-council/agendasminutes-by-date).
 
-## Legislation
+### Legislation
 
 The City Council generally votes on two types of legislation called ordinances and resolutions.
 
@@ -37,13 +43,13 @@ A resolution is a formal statement. Resolutions are only approved once. They do 
 
 [Past ordinances and resolutions online](http://www.chattanooga.gov/city-council/ordinances-and-resolutions)
 
-## Voting
+### Voting
 
 The City Council makes decisions on ordinances and resolutions by a simple majority vote. Each council member represents one district. Each district effectively has one vote.
 
 Most ordinances and resolutions are routine and pass unanimously with nine votes. A more contentious piece of legislation may pass with five "yes" votes and four "no" votes. It may also fail with less than five "yes" votes.
 
-## Officers and Committees
+### Officers and Committees
 
 Once a year, the City Council elects one of its members to be the council chair and one to be the vice-chair. The council chair conducts meetings, oversees the agenda and determines the flow of discussion. The vice-chair fills that role when the chair is absent.
 
@@ -53,7 +59,7 @@ Most committees correspond to administrative departments or functions. For examp
 
 [List of committees online](http://www.chattanooga.gov/city-council/committees)
 
-## Public Comment
+### Public Comment
 
 There is a time reserved for public comment at the end of council meetings on Tuesday evenings. During this time, Chattanooga residents may address the full council on issues they feel are important and were not addressed in that particular meeting.
 
