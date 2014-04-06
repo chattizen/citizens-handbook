@@ -4,11 +4,11 @@ layout: post
 categories:
     - chattanooga
 summary: | 
-    The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money. The council meets every Tuesday to vote on legislation.
-         | 
-    The city is divided into nine districts. Each district elects one council member. While all nine districts have about the same number of people living in them, each different has different priorities.
-         | 
-    The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of its business in two different sessions. Council members discuss legislation at a 3:30 p.m. agenda session. They vote on legislation at a 6 p.m. meeting.
+    <p>The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money.</p>
+
+    <p>The city is divided into nine districts. Each district elects one council member.</p>
+
+    <p>The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of its business in two different sessions. Council members discuss legislation at an afternoon agenda session. They vote on legislation at their evening meeting.</p>
 ---
 
 The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money. The council meets every Tuesday to vote on legislation.
