@@ -3,7 +3,7 @@ title: City Council
 layout: post
 categories:
     - chattanooga
-summary: | 
+excerpt: | 
     <p>The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money.</p>
 
     <p>The city is divided into nine districts. Each district elects one council member.</p>
