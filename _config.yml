@@ -11,3 +11,4 @@ timezone: "America/New_York"
 future: false
 permalink: "/:categories/:title/"
 domain: ""
+markdown: kramdown
