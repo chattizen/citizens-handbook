@@ -4,7 +4,7 @@ layout: post
 categories:
     - hamco
 excerpt: | 
-    Other elected offices in Hamilton County government. Office-holders serve four-year terms.
+    There are many other elected offices in Hamilton County government. Each one has a specialized function. 
 ---
 
 Constitutional officers are elected officials in Hamilton County government. Typically, the office they oversee has a specialized function, like determining how much property is worth. Constitutional officers serve four-year terms.
@@ -13,7 +13,7 @@ Constitutional officers are elected officials in Hamilton County government. Typ
 
 + Bill Bennett
 
-The assessor of property determines the value of all property in Hamilton County. His assessment is used to calculate property taxes for county government and its municipalities.
+The [assessor of property](http://www.hamiltontn.gov/assessor/) determines the value of all property in Hamilton County. His assessment is used to calculate property taxes for county government and its municipalities.
 
 Property is appraised every four years. The most recent appraisal occurred in 2013.
 
@@ -31,13 +31,13 @@ He also serves as secretary to the County Commission.
 
 + Pam Hurst
 
-The register of deeds is responsible for deeds, powers of attorney and other legal records.
+The [register of deeds](http://www.hamiltontn.gov/Register/) is responsible for deeds, powers of attorney and other legal records.
 
 ### Trustee
 
 + Bill Hullander
 
-The trustee is the county's treasurer. He collects county property taxes, accounts for and disburses public dollars, and invests county funds. 
+The [trustee](http://www.hamiltontn.gov/Trustee/) is the county's treasurer. He collects county property taxes, accounts for and disburses public dollars, and invests county funds. 
 
 The office also collects property taxes for other municipalities, excluding Chattanooga and Signal Mountain.
 
