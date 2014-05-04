@@ -31,7 +31,8 @@ The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of
 
 The evening council meeting follows an agenda, which lists the order the City Council will consider different legislation.
 
-[Agendas and minutes online](http://www.chattanooga.gov/city-council/agendasminutes-by-date).
++ [Agendas and minutes online](http://www.chattanooga.gov/city-council/agendasminutes-by-date)
++ [Live video stream](http://www.ustream.tv/channel/chattanooga-council-meeting)
 
 ### Legislation
 
