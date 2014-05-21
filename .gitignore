@@ -1,2 +1,5 @@
 _site/
 _config.local.yml
+bower_components
+node_modules
+.sass-cache
