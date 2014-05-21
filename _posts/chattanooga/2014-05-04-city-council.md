@@ -15,12 +15,12 @@ The Chattanooga City Council is a legislative body. It oversees many of the admi
 
 The city is divided into nine districts. Each district elects one council member. While all nine districts have about the same number of people living in them, each different has different priorities. 
 
-+ District 1: Chip Henderson
++ District 1: Chip Henderson, Chair
 + District 2: Jerry Mitchell
 + District 3: Ken Smith
 + District 4: Larry Grohn
 + District 5: Russell Gilbert
-+ District 6: Carol Berz
++ District 6: Carol Berz, Vice-chair
 + District 7: Chris Anderson
 + District 8: Moses Freeman
 + District 9: Yusuf Hakeem
@@ -31,7 +31,8 @@ The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of
 
 The evening council meeting follows an agenda, which lists the order the City Council will consider different legislation.
 
-[Agendas and minutes online](http://www.chattanooga.gov/city-council/agendasminutes-by-date).
++ [Agendas and minutes online](http://www.chattanooga.gov/city-council/agendasminutes-by-date)
++ [Live video stream](http://www.ustream.tv/channel/chattanooga-council-meeting)
 
 ### Legislation
 
