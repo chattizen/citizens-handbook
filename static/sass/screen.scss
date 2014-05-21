@@ -1,0 +1,33 @@
+@import "bourbon";
+@import "variables";
+@import "mixins";
+@import "normalize";
+
+$containerMaxWidth:     1200px - 40;
+@import "smart-grid-containers";
+
+@import "header";
+@import "content";
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-size: 20px;
+    .boxsizing & {
+        * {
+            box-sizing: border-box;
+        }
+    }
+}
+
+.container {
+    @include container;
+    @include clearfix;
+    padding-left: 20px;
+    padding-right: 20px;
+    .boxsizing & {
+        max-width: 1200px;
+    }
+}

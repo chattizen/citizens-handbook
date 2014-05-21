@@ -1,16 +1,15 @@
 <!doctype HTML>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7 {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9 {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"> <!--<![endif]-->
+<!--[if lte IE 8]>              <html lang="en-US" class="no-js ie {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"> <![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!-->  <html lang="en-US" class="no-js {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Chattanooga &amp; Hamilton County Tennessee Citizens' Handbook</title>
         <meta name="description" content="{{ page.description }}">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ site.domain }}/static/css/main.css">
-        <script src="{{ site.domain }}/static/js/modernizr.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,300,300italic|Roboto+Slab:400,700,300" rel="stylesheet">
+        <link rel="stylesheet" href="{{ site.domain }}/static/css/screen.css">
+        <script src="{{ site.domain }}/static/js/modernizr.min.js"></script>
         <link rel="canonical" href="{{ site.domain }}/{{ page.url | canonical }}">
         <link type="text/plain" rel="author" href="{{ site.domain }}/humans.txt">
         <link rel="alternate" type="application/atom+xml" href="{{ site.domain }}/atom.xml">
@@ -19,7 +18,7 @@
         <meta property="og:description" content="{% if page.og.description %}{{ page.og.description }}{% else %}{% if page.description %}{{ page.description }}{% endif %}{% endif %}">
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ site.domain }}/{{ page.url | canonical }}">
-        <meta property="og:image" content="{% if page.og.image %}{{ page.og.image }}{% else %}{{ site.domain }}/static/img/fb-icon.png{% endif %}">
+        <meta property="og:image" content="{% if page.og.image %}{{ page.og.image }}{% else %}{% if page.hero.src %}{{ site.domain }}/static/img/{{ page.hero.src }}{% else %}{{ site.domain }}/static/img/fb-icon.png{% endif %}{% endif %}">
         <meta property="og:site_name" content="{{ site.name }}">
 
         <script>var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));</script>

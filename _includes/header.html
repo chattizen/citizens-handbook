@@ -1,24 +1,14 @@
-            <header class="navbar navbar-fixed-top" id="hd">
+            <header id="hd">
                 <div class="container">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"><i class="fa fa-bars"></i></button>
-
-                    <a href="/" title="{{ site.name }}" class="navbar-brand"><i class="fa fa-home"></i> {{ site.name }}</a>
-
-                    <nav class="nav-collapse collapse navbar-responsive-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="/chattanooga/" title="Chattanooga">Chattanooga</a></li>
-                            <li><a href="/hamilton-county/" title="Hamilton County">Hamilton County</a></li>
-                            <li><a href="/hcde/" title="Department of Education">HCDE</a></li>
-                            <li><a href="/judicial/" title="Judicial">Judicial</a></li>
-
-                        <!-- {% for category in site.categories %}
-                            {% if category[0] == 'faq' %}
-                            <li><a href="/{{ category[0] }}/" title="FAQs">FAQs</a></li>
-                            {% else %}
-                            <li><a href="/{{ category[0] }}/" title="{{ category[0] | title }}">{{ category[0] | title }}</a></li>
-                            {% endif %}
-                        {% endfor %} -->
+                    <a href="/" title="{{ site.name }}" id="brand"><i id="mark"></i>{{ site.name }}</a>
+                    <button type="button" id="show-nav"><i class="fa fa-bars"></i> Menu</button>
+                    <nav id="primary-nav">
+                        <ul>
+                            <li><a href="/chattanooga/" title="Chattanooga" class="nav-chattanooga">Chattanooga</a></li>
+                            <li><a href="/hamilton-county/" title="Hamilton County" class="nav-hamilton-county">Hamilton County</a></li>
+                            <li><a href="/hcde/" title="Department of Education" class="nav-hcde">HCDE</a></li>
+                            <li><a href="/judicial/" title="Judicial" class="nav-judicial">Judicial</a></li>
                         </ul>
-                    </nav><!-- end .nav-responsive-collapse -->
+                    </nav>
                 </div><!-- end .container -->
             </header>

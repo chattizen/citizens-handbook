@@ -1,0 +1,126 @@
+#hd {
+    background: transparentize($green, 0.95);
+    font-family: $serif;
+    padding: 20px 0;
+    text-align: center;
+    @include responsive("(min-width: #{$containerMaxWidth})") {
+        line-height: 78px;
+        text-align: left;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+#brand {
+    display: block;
+    width: 266px;
+    text-align: center;
+    line-height: 1.2;
+    color: $red;
+    margin: 0 auto;
+    @include transition(color 0.25s);
+    &:hover,
+    &:focus,
+    &:active {
+        color: saturate($red, 10%);
+    }
+    @include responsive("(min-width: #{$containerMaxWidth})") {
+        display: inline-block;
+        float: left;
+        white-space: nowrap;
+        line-height: 78px;
+    }
+}
+
+#mark {
+    display: block;
+    width: 266px;
+    height: 78px;
+    background: url('../img/mark.png') no-repeat 50% 50%;
+    margin: 0 1em 0.5em 0;
+    @include responsive("(min-width: #{$containerMaxWidth})") {
+        display: inline-block;
+        margin: 0 1em 0 0;
+        vertical-align: middle;
+    }
+}
+
+#show-nav {
+    border: 0;
+    background: $green;
+    padding: 0.5em 1em;
+    color: $white;
+    margin: 1em 0 0;
+    font-weight: 200;
+    border-radius: 4px;
+    outline: 0;
+    @include transition(0.25s);
+    .fa {
+        margin-right: 0.5em;
+    }
+    .no-js & {
+        display: none;
+    }
+    .show-nav & {
+        background: $white;
+        color: $green;
+    }
+    @include responsive("(min-width: #{$containerMaxWidth})") {
+        display: none;
+    }
+}
+
+#primary-nav {
+    overflow: hidden;
+    text-align: left;
+    .js & {
+        max-height: 0;
+        @include transition(max-height 0.25s);
+        @include responsive("(min-width: #{$containerMaxWidth})") {
+            max-height: 100%;
+            @include transition(none);
+        }
+    }
+    .show-nav & {
+        max-height: 14em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        @include responsive("(min-width: #{$containerMaxWidth})") {
+            float: right;
+        }
+    }
+    li {
+        margin: 1em 0 0 -1em;
+        @include responsive("(min-width: #{$containerMaxWidth})") {
+            margin: 0 0 0 2em;
+            float: left;
+        }
+    }
+    a {
+        color: $green;
+        border-color: $green;
+        display: block;
+        padding: 0.5em 1em;
+        @include transition(color 0.25s, border-color 0.25s);
+        &:hover,
+        &:active,
+        &:focus {
+            color: saturate($green, 10%);
+            border-color: saturate($green, 10%);
+        }
+        @include responsive("(min-width: #{$containerMaxWidth})") {
+            padding: 0;
+        }
+    }
+}
+
+.chattanooga #primary-nav .nav-chattanooga,
+.hamilton-county #primary-nav .nav-hamilton-county,
+.hcde #primary-nav .nav-hcde,
+.judicial #primary-nav .nav-judicial {
+    text-decoration: underline;
+}

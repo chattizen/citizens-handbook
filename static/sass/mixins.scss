@@ -1,0 +1,8 @@
+@mixin responsive($mediaQuery) {
+    @media #{$mediaQuery} {
+        @content;
+    }
+    .ie & {
+        @content;
+    }
+}
