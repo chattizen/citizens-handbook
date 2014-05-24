@@ -1,0 +1,22 @@
+{
+  "name": "guide.chattizen.org",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chattizen/citizens-handbook",
+  "authors": [
+    "Daniel Ryan <dryan@dryan.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.0.1",
+    "css-smart-grid": "~5.1.0",
+    "leaflet": "~0.7.3"
+  }
+}

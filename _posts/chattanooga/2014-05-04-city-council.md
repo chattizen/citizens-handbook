@@ -9,6 +9,11 @@ excerpt: |
     The city is divided into nine districts. Each district elects one council member.
 
     The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of its business in two different sessions. Council members discuss legislation at an afternoon agenda session. They vote on legislation at their evening meeting.
+address:
+    street_address: 1000 Lindsay St
+    locality:       Chattanooga
+    region:         TN
+    postal_code:    37402
 ---
 
 The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money. The council meets every Tuesday to vote on legislation.

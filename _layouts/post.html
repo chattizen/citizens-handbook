@@ -3,9 +3,39 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 
+<div class="row">
+    <article id="post">
+    {{ content }}
+    </article>
 
-<div id="post">
-{{ content }}
-</div>
+    <aside id="sb">
+        {% if page.address %}
+        <figure class="adr">
+            <div class="map" data-name="{{ page.title }}" data-street-address="{{ page.address.street_address }}" data-extended-address="{{ page.address.extended_address }}" data-locality="{{ page.address.locality }}" data-region="{{ page.address.region }}" data-postal-code="{{ page.address.postal_code }}"></div>
+            <figcaption>
+                {% if page.address.street_address %}
+                    <span class="street-address">{{ page.address.street_address }}</span>
+                {% endif %}
+                {% if page.address.extended_address %}
+                    <br>
+                    <span class="extended-address">{{ page.address.extended_address }}</span>
+                {% endif %}
+                {% if page.address.locality %}
+                    <br>
+                    <span class="locality">{{ page.address.locality }}</span>{% if page.address.region %},{% endif %}
+                {% endif %}
+                {% if page.address.region %}
+                    <span class="region">{{ page.address.region }}</span>
+                {% endif %}
+                {% if page.address.postal_code %}
+                    <span class="postal-code">{{ page.address.postal_code }}</span>
+                {% endif %}
+            </figcaption>
+        </figure>
+        {% endif %}
+    </aside>
+</div><!-- / .row -->
 
-<p class="meta">Last updated {{ page.date | date_to_string }}</p>
+<footer>
+    <p class="meta">Last updated {{ page.date | date_to_string }}</p>
+</footer>

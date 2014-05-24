@@ -3,6 +3,7 @@
 @import "mixins";
 @import "normalize";
 
+$flexbox_support:       true;
 $containerMaxWidth:     1200px - 40;
 @import "smart-grid-containers";
 
@@ -30,4 +31,7 @@ body {
     .boxsizing & {
         max-width: 1200px;
     }
+}
+.row {
+    @include flexbox_row;
 }

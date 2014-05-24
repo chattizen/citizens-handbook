@@ -1,3 +1,6 @@
+@import "smart-grid-containers";
+@import "smart-grid-columns";
+
 body {
     color: $gray;
     font-family: $sansSerif;
@@ -32,6 +35,7 @@ h6 {
 
 #main {
     line-height: 1.5;
+    @include container;
     a {
         @include transition(0.25s);
         color: $green;
@@ -75,5 +79,36 @@ h6 {
         font-size: em(13, 20);
         margin: 2em auto 0;
         color: transparentize($gray, 0.3);
+    }
+    .row {
+        article {
+            @include column;
+            @include columns(8);
+            > :first-child {
+                margin-top: 0;
+            }
+        }
+        aside {
+            @include column;
+            @include columns(4);
+            background: transparentize($black, 0.95);
+            padding: 20px;
+        }
+    }
+    .map {
+        padding: 56.25% 0 0;
+    }
+    aside {
+        font-size: em(16, 20);
+        .map {
+            margin-top: -20px;
+            margin-right: -20px;
+            margin-left: -20px;
+        }
+    }
+    .adr {
+        figcaption {
+            margin-top: 0.5em;
+        }
     }
 }

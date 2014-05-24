@@ -7,7 +7,8 @@ exclude:
     - less
     - bootstrap
     - fontawesome
-    - bower_components
+    - bower_components/bourbon
+    - bower_components/css-smart-grid
     - Gruntfile.js
     - package.json
     - sass
@@ -17,3 +18,4 @@ future: false
 permalink: "/:categories/:title/"
 domain: ""
 markdown: kramdown
+google_api_key: AIzaSyAJAQ_ie1uOT3R-tsx0nyIM_MOnyevqlZw
