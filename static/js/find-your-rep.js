@@ -138,9 +138,4 @@ var chattizen       =   window.chattizen;
         });
     });
 
-    address.val('3916 Memphis Dr.');
-    city.val('Chattanooga');
-    zip.val('37415');
-    form.submit();
-
 })(window.jQuery, window.OCDDivision, window.Mustache);
