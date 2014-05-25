@@ -17,6 +17,14 @@ h6 {
     color: $red;
 }
 
+img[data-src] {
+    visibility: hidden;
+}
+
+.no-js .requires-js {
+    display: none;
+}
+
 #heroshot {
     max-width: $containerMaxWidth + 40;
     margin: 0 auto;

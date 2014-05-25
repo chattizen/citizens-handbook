@@ -9,8 +9,12 @@ var chattizen       =   window.chattizen;
     html            =   $('html'),
     showNav         =   $('#show-nav'),
     maps            =   $('.map'),
-    corejs          =   $('#corejs'),
-    googleAPIKey    =   corejs.data('google-api-key');
+    corejs          =   $('#corejs');
+
+    chattizen.apiKeys   =   {
+        'google':       corejs.data('google-api-key'),
+        'sunlight':     corejs.data('sunlight-api-key')
+    };
 
     showNav.on('click', function() {
         html.toggleClass('show-nav');

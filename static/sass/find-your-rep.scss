@@ -1,0 +1,81 @@
+@import "bourbon";
+@import "variables";
+
+@import "smart-grid-containers";
+@import "smart-grid-columns";
+
+#representatives {
+    text-align: center;
+    .field,
+    .buttons {
+        display: inline-block;
+        margin: 0.5em;
+    }
+}
+
+h2 {
+    color: $green;
+}
+
+#main {
+    .official {
+        @include flexbox_row;
+        .photo {
+            @include column;
+            width: 180px;
+        }
+        .info {
+            .flexbox & {
+                width: 100%;
+            }
+            .fn {
+                margin-top: 0;
+            }
+        }
+        .photo + .info {
+            margin-left: 20px;
+        }
+        .url,
+        .email {
+            display: inline-block;
+            margin-right: 1em;
+            margin-top: 0;
+        }
+        .social {
+            .fa {
+                color: $white;
+                padding: 0.25em;
+                margin: 0 0.5em;
+                font-size: em(28, 20);
+                border-radius: 4px;
+                line-height: 1;
+                min-width: 1em;
+                text-align: center;
+                overflow: hidden;
+                .boxsizing & {
+                    min-width: 1.5em;
+                }
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+            .fa-twitter {
+                background: $twitter;
+            }
+            .fa-facebook {
+                background: $facebook;
+                text-align: right;
+                padding-top: 0.4em;
+                padding-bottom: 0.1em;
+            }
+            .fa-youtube-play {
+                background: $youtube;
+            }
+        }
+    }
+
+    .official + .official {
+        margin-top: 2em;
+    }
+}
+

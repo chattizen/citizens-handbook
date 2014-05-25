@@ -1,4 +1,8 @@
+        <script src="//src.responsive.io/r.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="{{ site.domain }}/static/js/core.min.js" id="corejs" data-google-api-key="{{ site.google_api_key }}"></script>
+        {% if page.script %}
+        <script src="{{ site.domain }}/static/js/{{ page.script }}.min.js"></script>
+        {% endif %}
     </body>
 </html>

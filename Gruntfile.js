@@ -1,10 +1,11 @@
 var fs          =   require('fs');
 var sourceJS    =   [];
 var jsFiles     =   fs.readdirSync('./static/js');
+var jsIgnore    =   ['mustache.js'];
 var i           =   jsFiles.length;
 
 while(i--) {
-    if(jsFiles[i].indexOf('.js') > -1 && jsFiles[i].indexOf('.min') === -1) {
+    if(jsFiles[i].indexOf('.js') > -1 && jsFiles[i].indexOf('.min') === -1 && jsIgnore.indexOf(jsFiles[i]) === -1) {
         sourceJS.push('static/js/' + jsFiles[i]);
     }
 }
@@ -17,7 +18,8 @@ module.exports  =   function(grunt) {
         sass: {
             dist: {
                 files: {
-                    'static/css/screen.css': 'static/sass/screen.scss'
+                    'static/css/screen.css': 'static/sass/screen.scss',
+                    'static/css/find-your-rep.css': 'static/sass/find-your-rep.scss'
                 }
             },
             options: {
@@ -39,7 +41,9 @@ module.exports  =   function(grunt) {
             },
             dist: {
                 files: {
-                    'static/js/core.min.js': ['static/js/core.js']
+                    'static/js/core.min.js': ['static/js/core.js'],
+                    'static/js/ocd-divisions.min.js': ['static/js/ocd-divisions.js'],
+                    'static/js/find-your-rep.min.js': ['static/js/mustache.js', 'static/js/ocd-divisions.js', 'static/js/find-your-rep.js']
                 }
             }
         },
@@ -54,11 +58,11 @@ module.exports  =   function(grunt) {
         watch: {
             css: {
                 files: 'static/sass/*.scss',
-                tasks: ['sass', 'exec:build']
+                tasks: ['sass']
             },
             js: {
                 files: sourceJS,
-                tasks: ['jshint', 'uglify', 'exec:build']
+                tasks: ['jshint', 'uglify']
             }
         }
     });

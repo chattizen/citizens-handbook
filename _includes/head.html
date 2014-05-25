@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,300,300italic|Roboto+Slab:400,700,300" rel="stylesheet">
         <link rel="stylesheet" href="{{ site.domain }}/static/css/screen.css">
+        {% if page.stylesheet %}
+        <link rel="stylesheet" href="{{ site.domain }}/static/css/{{ page.stylesheet }}.css">
+        {% endif %}
         <script src="{{ site.domain }}/static/js/modernizr.min.js"></script>
         <link rel="canonical" href="{{ site.domain }}/{{ page.url | canonical }}">
         <link type="text/plain" rel="author" href="{{ site.domain }}/humans.txt">

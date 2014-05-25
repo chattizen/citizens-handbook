@@ -19,3 +19,4 @@ permalink: "/:categories/:title/"
 domain: ""
 markdown: kramdown
 google_api_key: AIzaSyAJAQ_ie1uOT3R-tsx0nyIM_MOnyevqlZw
+sunlight_api_key: 27085cc0c32c4392966cbb878ab782c7
