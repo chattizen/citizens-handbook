@@ -1,0 +1,8 @@
+---
+layout: none
+---
+[
+{% for official in site.data.officials %}
+{"office_id": "{{ official.office_id }}"}{% if forloop.last != true %},{% endif %}
+{% endfor %}
+]
