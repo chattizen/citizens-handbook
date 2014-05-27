@@ -1,8 +1,72 @@
 ---
 layout: none
 ---
-[
-{% for official in site.data.officials %}
-{"office_id": "{{ official.office_id }}"}{% if forloop.last != true %},{% endif %}
+{
+{% for division in site.data.officials %}
+"{{ division.division_id }}":
+{
+    "scope":    "{{ division.scope }}",
+    "offices":      [
+    {% for office in division.offices %}
+        {
+            "level":        "{{ office.level }}",
+            "name":         "{{ office.name }}",
+            "officials":    [
+            {% for official in office.officials %}
+                {
+                    "name":     "{{ official.name }}",
+                    "party":    "{% if official.party %}{{ official.party }}{% else %}Unknown{% endif %}",
+                    {% if official.phones %}
+                    "phones": [
+                    {% for phone in official.phones %}
+                        "{{ phone }}"{% if forloop.last != true %},{% endif %}
+                    {% endfor %}
+                    ],
+                    {% endif %}
+                    {% if official.emails %}
+                    "emails": [
+                    {% for email in official.emails %}
+                        "{{ email }}"{% if forloop.last != true %},{% endif %}
+                    {% endfor %}
+                    ],
+                    {% endif %}
+                    {% if official.urls %}
+                    "urls": [
+                    {% for url in official.urls %}
+                        "{{ url }}"{% if forloop.last != true %},{% endif %}
+                    {% endfor %}
+                    ],
+                    {% endif %}
+                    {% if official.channels %}
+                    "channels": [
+                    {% for channel in official.channels %}
+                        {
+                            "type": "{{ channel.type }}",
+                            "id": "{{ channel.id }}"
+                        }{% if forloop.last != true %},{% endif %}
+                    {% endfor %}
+                    ],
+                    {% endif %}
+                    {% if official.photoUrl %}
+                    "photoUrl": "{{ official.photoUrl }}", 
+                    {% endif %}
+                    "address":  [
+                        {
+                            "line1":    "{{ official.address.line1 }}",
+                            {% if official.address.line2 %}
+                            "line2":    "{{ official.address.line2 }}",
+                            {% endif %}
+                            "city":     "{{ official.address.city }}",
+                            "state":    "{{ official.address.state }}",
+                            "zip":      "{{ official.address.zip }}"
+                        }
+                    ]
+                }{% if forloop.last != true %},{% endif %}
+            {% endfor %}
+            ]
+        }{% if forloop.last != true %},{% endif %}
+    {% endfor %}
+    ]
+}{% if forloop.last != true %},{% endif %}
 {% endfor %}
-]
+}

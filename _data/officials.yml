@@ -1,393 +1,422 @@
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:1"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:1"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 1"
+        officials:
+        -   name:           "Fred R. Skillern"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 332-3143"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/1.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:2"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:2"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 2"
+        officials:
+        -   name:           "James A. Fields"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/2.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:3"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:3"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 3"
+        officials:
+        -   name:           "Marty Haynes"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/3.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:4"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:4"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 4"
+        officials:
+        -   name:           "Warren Mackey"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/4.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:5"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:5"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 5"
+        officials:
+        -   name:           "Gregory Beck"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/5.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:6"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:6"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 6"
+        officials:
+        -   name:           "Joe Graham"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/6.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:7"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:7"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 7"
+        officials:
+        -   name:           "Larry L. Henry"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/7.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:8"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:8"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 8"
+        officials:
+        -   name:           "Tim Boyd"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/8.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/county:hamilton/council_district:9"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/county:hamilton/council_district:9"
+    scope:          "countyCouncil"
+    offices:
+    -   level:  "county"
+        name:   "County Commission, District 9"
+        officials:
+        -   name:           "Chester Bankston"
+            party:          ""
+            address:
+                line1:      "401 Courthouse"
+                city:       "Chattanooga"
+                state:      "TN"
+                zip:        "37402"
+            phones:
+            -   "(423) 209-7200"
+            urls:
+            -   "http://www.hamiltontn.gov/commission/districts/9.aspx"
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/council_district:1"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:1"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 1"
+            officials:
+            -   name:           "Chip Henderson"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7186"
+                emails:
+                -   "henderson_chip@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/chip-henderson-district-1"
+                photoUrl:   ""
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/council_district:2"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:2"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 2"
+            officials:
+            -   name:           "Jerry Mitchell"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7187"
+                emails:
+                -   "mitchell_jerry@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/jerry-mitchell-district-2"
+                photoUrl:   ""
+                channels:
+                -   type:   "Twitter"
+                    id:     "jerrymitchell02"
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/council_district:3"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:3"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 3"
+            officials:
+            -   name:           "Ken Smith"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 521-0238"
+                emails:
+                -   "smith_ken@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/ken-smith-district-3"
+                photoUrl:   ""
+                channels:
+                -   type:   "Twitter"
+                    id:     "kenrsmith"
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/council_district:4"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:4"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 4"
+            officials:
+            -   name:           "Larry Grohn"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7184"
+                emails:
+                -   "grohn_larry@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/larry-grohn-district-4"
+                photoUrl:   ""
+                channels:
+                -   type:   "Twitter"
+                    id:     "larrygrohn"
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/council_district:5"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:5"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 5"
+            officials:
+            -   name:           "Russell Gilbert"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7183"
+                emails:
+                -   "gilbert_r@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/russell-gilbert-district-5"
+                photoUrl:   ""
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/council_district:6"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:6"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 6"
+            officials:
+            -   name:           "Carol Berz"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7181"
+                emails:
+                -   "berz_c@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/carol-b-berz-district-6"
+                photoUrl:   ""
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/council_district:7"
-    name:       ""
-    party:      ""
-    address:
-    -   line1:  ""
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    ""
-    phones:
-    -   ""
-    emails:
-    -   ""
-    urls:
-    -   ""
-    channels:
-    -   type:   "Facebook"
-        id:     ""
-    -   type:   "Twitter"
-        id:     ""
-    -   type:   "Youtube"
-        id:     ""
-    photoUrl:   ""
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:7"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 7"
+            officials:
+            -   name:           "Chris Anderson"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7180"
+                emails:
+                -   "anderson_c@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/chris-anderson-district-7"
+                photoUrl:   ""
+                channels:
+                -   type:   "Twitter"
+                    id:     "chrismanderson"
 
--   office_id:  "ocd-division/country:us/state:tn/place:chattanooga/"
-    name:       "Andy Berke"
-    party:      "Democrat"
-    address:
-    -   line1:  "100 E 11th St"
-    -   line2:  "Suite 200"
-    -   city:   "Chattanooga"
-    -   state:  "TN"
-    -   zip:    "37402"
-    phones:
-    -   "(423) 425-6201"
-    emails:
-    -   "andy@andyberke.com"
-    urls:
-    -   "http://andyberke.com/"
-    channels:
-    -   type:   "Facebook"
-        id:     "andyberke10"
-    -   type:   "Twitter"
-        id:     "andyberke"
-    -   type:   "Youtube"
-        id:     ""
-    -   type:   "Vimeo"
-        id:     "user12112887"
-    photoUrl:   "http://www.chattanooga.gov/images/Mayor_Images/Mayor_Berke.jpg"
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:8"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 8"
+            officials:
+            -   name:           "Moses Freeman"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7182"
+                emails:
+                -   "freeman_m@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/moses-freeman-district-8"
+                photoUrl:   ""
+                channels:
+                -   type:   "Twitter"
+                    id:     "freeease1"
+
+-   division_id:    "ocd-division/country:us/state:tn/place:chattanooga/council_district:9"
+    scope:          "cityCouncil"
+    offices:
+        -   level:  "city"
+            name:   "City Council, District 9"
+            officials:
+            -   name:           "Yusuf Hakeem"
+                party:          ""
+                address:
+                    line1:      "1000 Lindsay St."
+                    city:       "Chattanooga"
+                    state:      "TN"
+                    zip:        "37402"
+                phones:
+                -   "(423) 643-7185"
+                emails:
+                -   "hakeem_y@chattanooga.gov"
+                urls:
+                -   "http://www.chattanooga.gov/city-council/council-members/yusuf-hakeem-district-9"
+                photoUrl:   ""
+
+-   division_id:  "ocd-division/country:us/state:tn/place:chattanooga"
+    scope:          "citywide"
+    offices:
+        -   level:  "city"
+            name:   "Mayor"
+            officials:
+            -   name:       "Andy Berke"
+                party:      "Democrat"
+                address:
+                    line1:  "100 E 11th St"
+                    line2:  "Suite 200"
+                    city:   "Chattanooga"
+                    state:  "TN"
+                    zip:    "37402"
+                phones:
+                -   "(423) 425-6201"
+                emails:
+                -   "andy@andyberke.com"
+                urls:
+                -   "http://andyberke.com/"
+                channels:
+                -   type:   "Facebook"
+                    id:     "andyberke10"
+                -   type:   "Twitter"
+                    id:     "andyberke"
+                -   type:   "Youtube"
+                    id:     ""
+                -   type:   "Vimeo"
+                    id:     "user12112887"
+                photoUrl:   "http://www.chattanooga.gov/images/Mayor_Images/Mayor_Berke.jpg"
+        -   level:  "city"
+            name:   "City Judge, Division I"
+            officials:
+            -   name:       "Sherry Paty"
+                party:      "Unknown"
+                address:
+                    line1:  "600 Market St"
+                    line2:  "Room 104"
+                    city:   "Chattanooga"
+                    state:  "TN"
+                    zip:    "37402"
+                phones:
+                -   "(423) 425-6311"
+        -   level:  "city"
+            name:   "City Judge, Division II"
+            officials:
+            -   name:       "Russell Bean"
+                party:      "Unknown"
+                address:
+                    line1:  "600 Market St"
+                    line2:  "Room 104"
+                    city:   "Chattanooga"
+                    state:  "TN"
+                    zip:    "37402"
+                phones:
+                -   "(423) 425-6311"
