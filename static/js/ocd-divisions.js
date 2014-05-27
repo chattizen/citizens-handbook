@@ -86,33 +86,7 @@
                             officials[officialId].address[y].city   =   toTitleCase(officials[officialId].address[y].city);
                         }
                     }
-                    if(officials[officialId].channels && officials[officialId].channels.length) {
-                        var
-                        z   =   officials[officialId].channels.length;
-                        while(z--) {
-                            var
-                            channel     =   officials[officialId].channels[z];
-                            switch(channel.type.toLowerCase()) {
-                                case 'facebook':
-                                    channel     =   '<a href="https://www.facebook.com/' + channel.id + '" title="Facebook" class="fa fa-facebook"></a>';
-                                    break;
-                                case 'twitter':
-                                    channel     =   '<a href="https://twitter.com/' + channel.id + '" title="Twitter" class="fa fa-twitter"></a>';
-                                    break;
-                                case 'youtube':
-                                    channel     =   '<a href="https://www.youtube.com/user/' + channel.id + '" title="Youtube" class="fa fa-youtube-play"></a>';
-                                    break;
-                                default:
-                                    channel     =   null;
-                                    break;
-                            }
-                            if(channel) {
-                                officials[officialId].channels[z]   =   channel;
-                            } else {
-                                delete officials[officialId].channels[z];
-                            }
-                        }
-                    }
+                    OCDDivision.channelsToLinks(officials[officialId]);
                     if(officials[officialId].photoUrl) {
                         officials[officialId].photoUrl  =   encodeURIComponent(officials[officialId].photoUrl);
                     }
@@ -122,6 +96,38 @@
         }
 
         return this;
+    };
+
+    OCDDivision.channelsToLinks   =   function(official) {
+        // this is a Class method
+        var
+        y           =   official.channels ? official.channels.length : 0;
+        while(y--) {
+            var
+            channel     =   official.channels[y];
+            switch(channel.type.toLowerCase()) {
+                case 'facebook':
+                    channel     =   '<a href="https://www.facebook.com/' + channel.id + '" title="Facebook" class="fa fa-facebook"></a>';
+                    break;
+                case 'twitter':
+                    channel     =   '<a href="https://twitter.com/' + channel.id + '" title="Twitter" class="fa fa-twitter"></a>';
+                    break;
+                case 'youtube':
+                    channel     =   '<a href="https://www.youtube.com/user/' + channel.id + '" title="Youtube" class="fa fa-youtube-play"></a>';
+                    break;
+                case 'vimeo':
+                    channel     =   '<a href="http://vimeo.com/' + channel.id + '" title="Vimeo" class="fa fa-vimeo-square"></a>';
+                    break;
+                default:
+                    channel     =   null;
+                    break;
+            }
+            if(channel) {
+                official.channels[y]   =   channel;
+            } else {
+                delete official.channels[y];
+            }
+        }
     };
 
     window.OCDDivision  =   OCDDivision;

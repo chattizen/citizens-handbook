@@ -68,73 +68,107 @@ var chattizen       =   window.chattizen;
         }
     });
 
+    function transformLocalData(data) {
+        for(var ocdid in data) {
+            var
+            division    =   data[ocdid],
+            x           =   division.offices.length;
+            while(x--) {
+                var
+                office  =   division.offices[x],
+                y       =   office.officials.length;
+                while(y--) {
+                    Division.channelsToLinks(office.officials[y]);
+                }
+            }
+        }
+        return data;
+    }
+
     form.on('submit', function(e) {
         e.preventDefault();
         e.stopPropagation();
         button.blur();
-        $.ajax({
-            type:           'POST',
-            url:            'https://www.googleapis.com/civicinfo/us_v1/representatives/lookup?key=' + chattizen.apiKeys.google,
-            data:           window.JSON.stringify({"address": [address.val(), city.val(), 'TN', zip.val()].join(' ')}),
-            contentType:    'application/json; charset=utf-8',
-            dataType:       'json'
-        }).done(function(data) {
-            if(data.status === 'success') {
-                var
-                officials   =   {
-                    'us_senate':    null,
-                    'us_house':     null,
-                    'governor':     null,
-                    'state_senate': null,
-                    'state_house':  null,
-                    'county':       [],
-                    'city':         []
-                };
-                for(var ocdid in data.divisions) {
-                    var division        =   new Division(ocdid, data.divisions[ocdid]);
-                    division.findOffices(data.offices).findOfficials(data.officials);
-                    switch(division.scope) {
-                        case 'statewide':
-                            $.each(division.offices || [], function(index, office) {
-                                if(office.name === 'United States Senate') {
-                                    officials.us_senate     =   [office];
-                                } else if(office.name === 'Governor') {
-                                    officials.governor      =   [office];
+        $.getJSON(
+            '/api/officials.json'
+        ).done(function(localData) {
+            localData   =   transformLocalData(localData);
+            $.ajax({
+                type:           'POST',
+                url:            'https://www.googleapis.com/civicinfo/us_v1/representatives/lookup?key=' + chattizen.apiKeys.google,
+                data:           window.JSON.stringify({"address": [address.val(), city.val(), 'TN', zip.val()].join(' ')}),
+                contentType:    'application/json; charset=utf-8',
+                dataType:       'json'
+            }).done(function(data) {
+                if(data.status === 'success') {
+                    var
+                    officials   =   {
+                        'us_senate':    null,
+                        'us_house':     null,
+                        'governor':     null,
+                        'state_senate': null,
+                        'state_house':  null,
+                        'county':       [],
+                        'city':         []
+                    };
+                    for(var ocdid in data.divisions) {
+                        var division        =   new Division(ocdid, data.divisions[ocdid]);
+                        division.findOffices(data.offices).findOfficials(data.officials);
+                        window.console.debug(division.scope);
+                        switch(division.scope) {
+                            case 'statewide':
+                                $.each(division.offices || [], function(index, office) {
+                                    if(office.name === 'United States Senate') {
+                                        officials.us_senate     =   [office];
+                                    } else if(office.name === 'Governor') {
+                                        officials.governor      =   [office];
+                                    }
+                                });
+                                break;
+                            case 'congressional':
+                                officials.us_house  =   division.offices || [];
+                                break;
+                            case 'countywide':
+                                officials.county    =   officials.county.concat(division.offices || []);
+                                break;
+                            case 'countyCouncil':
+                                officials.county    =   officials.county || [];
+                                if(division.offices && division.offices.length) {
+                                    officials.county.concat(division.offices);
+                                } else {
+                                    officials.county.concat(localData[ocdid] ? localData[ocdid].offices : []);
                                 }
-                            });
-                            break;
-                        case 'congressional':
-                            officials.us_house  =   division.offices || [];
-                            break;
-                        case 'countywide':
-                            officials.county    =   officials.county.concat(division.offices || []);
-                            break;
-                        case 'countyCouncil':
-                            if(division.offices && division.offices.length) {
-                                officials.county.shift(division.offices[0]);
-                            }
-                            break;
-                        case 'citywide':
-                            officials.city  =   officials.city.concat(division.offices || []);
-                            break;
-                        case 'cityCouncil':
-                            if(division.offices && division.offices.length) {
-                                officials.city.push(division.offices[0]);
-                            }
-                            break;
-                        case 'stateLower':
-                            officials.state_house   =   division.offices || [];
-                            break;
-                        case 'stateUpper':
-                            officials.state_senate  =   division.offices || [];
-                            break;
+                                break;
+                            case 'citywide':
+                                officials.city  =   officials.city || [];
+                                if(division.offices && division.offices.length) {
+                                    officials.city  =   officials.city.concat(division.offices || []);
+                                } else {
+                                    officials.city  =   officials.city.concat(localData[ocdid] ? localData[ocdid].offices : []);
+                                }
+                                break;
+                            case 'cityCouncil':
+                                officials.city  =   officials.city || [];
+                                if(division.offices && division.offices.length) {
+                                    officials.city  =   officials.city.concat(division.offices);
+                                } else {
+                                    officials.city  =   officials.city.concat(localData[ocdid] ? localData[ocdid].offices : []);
+                                }
+                                break;
+                            case 'stateLower':
+                                officials.state_house   =   division.offices || [];
+                                break;
+                            case 'stateUpper':
+                                officials.state_senate  =   division.offices || [];
+                                break;
+                        }
                     }
+                    window.console.debug(officials);
+                    results.html(Mustache.render(templates.results, {'results': [officials.us_senate, officials.us_house, officials.governor, officials.state_senate, officials.state_house, officials.county, officials.city]}, {division: templates.division}));
+                } else {
+                    results.html('<p>There was an issue looking up your information</p>');
                 }
-                window.console.debug(officials);
-                results.html(Mustache.render(templates.results, {'results': [officials.us_senate, officials.us_house, officials.governor, officials.state_senate, officials.state_house, officials.county, officials.city]}, {division: templates.division}));
-            } else {
-                results.html('<p>There was an issue looking up your information</p>');
-            }
+            });
         });
     });
 

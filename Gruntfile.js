@@ -37,7 +37,7 @@ module.exports  =   function(grunt) {
         },
         uglify: {
             options: {
-
+                beautify: true
             },
             dist: {
                 files: {
