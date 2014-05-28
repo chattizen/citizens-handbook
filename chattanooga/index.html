@@ -9,12 +9,31 @@ hero:
         <h1>{{ page.title }}</h1>
         <p>Chattanooga is the fourth largest city in Tennessee. Its government consists of a mayor and City Council.</p>
         <dl>
-        {% for post in site.categories.chattanooga %}
             <dt>
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <h2><a href="./mayor">Mayor</a></h2>
             </dt>
             <dd>
-              {{ post.excerpt | textilize }}
+                <p>The mayor is the chief executive who runs Chattanooga city government.</p>
+
+                <p>He oversees a large administration that provides government services. The structure of this government is mostly determined by the mayor himself.</p>
+
+                <p>He is popularly elected in a citywide election every four years. The current mayor, Andy Berke, was first elected in March 2013. Chattanooga's mayor is limited to serving two consecutive terms in office.</p>
             </dd>
-        {% endfor %}
+            <dt>
+              <h2><a href="./city-council">City Council</a></h2>
+            </dt>
+            <dd>
+                <p>The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money.</p>
+
+                <p>The city is divided into nine districts. Each district elects one council member.</p>
+
+                <p>The City Council meets every Tuesday at 1000 Lindsay Street. It conducts most of its business in two different sessions. Council members discuss legislation at an afternoon agenda session. They vote on legislation at their evening meeting.</p>
+            </dd>
+            <dt>
+              <h2><a href="./other-offices">Other Offices</a></h2>
+            </dt>
+            <dd>
+                <p>There are other offices and elected officials in city government other than the mayor and City Council.</p>
+            </dd>
+        
         </dl>

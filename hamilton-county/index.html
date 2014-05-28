@@ -7,10 +7,27 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p>Hamilton County is a political subdivision of Tennessee. Its government consists a mayor, county commission and other elected consitutional officers.</p>
         <dl>
-        {% for post in site.categories.hamco %}
+        
             <dt>
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <h2><a href="./mayor">Mayor</a></h2>
             </dt>
-            <dd>{{ post.excerpt | textilize }}</dd>
-        {% endfor %}
+            <dd>Lorem ipsum</dd>
+
+            <dt>
+              <h2><a href="./county-commission">County Commission</a></h2>
+            </dt>
+            <dd>
+                <p>The Hamilton County Commission is a legislative body consisting of nine elected representatives.</p>
+
+                <p>It's primary responsibility is to oversee the spending of the mayor, his administration and other constitutional offices.</p>
+
+            </dd>
+
+            <dt>
+              <h2><a href="./constitutional-officers">Constitutional Officers</a></h2>
+            </dt>
+            <dd>
+                <p>There are many other elected offices in Hamilton County government. Each one has a specialized function.</p>
+            </dd>
+        
         </dl>
