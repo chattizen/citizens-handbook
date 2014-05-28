@@ -155,10 +155,10 @@ def county_services():
 
 
 if __name__ == '__main__':
-    # city_council()
-    # city_mayor()
-    # county_commission()
-    # county_mayor()
-    # county_services()
+    city_council()
+    city_mayor()
+    county_commission()
+    county_mayor()
+    county_services()
 
     sys.exit(os.EX_OK)
