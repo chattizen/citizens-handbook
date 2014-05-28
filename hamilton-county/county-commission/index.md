@@ -15,15 +15,15 @@ The Hamilton County Commission is a legislative body. It primarily oversees the 
 
 The county is divided into nine districts. Each district elects one commissioner.
 
-+ District 1: Fred Skillern, Chair
-+ District 2: James Fields
-+ District 3: Marty Haynes
-+ District 4: Warren Mackey
-+ District 5: Greg Beck
-+ District 6: Joe Graham
-+ District 7: Larry Henry
-+ District 8: Tim Boyd
-+ District 9: Chester Bankston
++ [District 1: Fred Skillern, Chair](./district-1.html)
++ [District 2: James Fields](./district-2.html)
++ [District 3: Marty Haynes](./district-3.html)
++ [District 4: Warren Mackey](./district-4.html)
++ [District 5: Greg Beck](./district-5.html)
++ [District 6: Joe Graham](./district-6.html)
++ [District 7: Larry Henry](./district-7.html)
++ [District 8: Tim Boyd](./district-8.html)
++ [District 9: Chester Bankston](./district-9.html)
 
 Commission districts coincide with districts of the Hamilton County Board of Education.
 
