@@ -1,5 +1,5 @@
 name: Citizens’ Handbook
-pygments: false
+highlights: false
 safe: true
 exclude:
     - LICENSE.md
