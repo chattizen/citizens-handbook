@@ -4,7 +4,8 @@ layout: post
 categories:
     - hamco
 excerpt: | 
-    There are many other elected offices in Hamilton County government. Each one has a specialized function. 
+    There are many other elected offices in Hamilton County government. Each one has a specialized function.
+ocdid: /country:us/state:tn/county:hamilton/countywide
 ---
 
 Constitutional officers are elected officials in Hamilton County government. Typically, the office they oversee has a specialized function, like determining how much property is worth. Constitutional officers serve four-year terms.

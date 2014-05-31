@@ -9,6 +9,7 @@ excerpt: |
     He oversees a large administration that provides government services. The structure of this government is mostly determined by the mayor himself.
 
     He is popularly elected in a citywide election every four years. The current mayor, Andy Berke, was first elected in March 2013. Chattanooga's mayor is limited to serving two consecutive terms in office.
+ocdid: /country:us/state:tn/place:chattanooga/citywide
 ---
 
 The mayor is the chief executive who runs Chattanooga city government.
