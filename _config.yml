@@ -13,6 +13,8 @@ exclude:
     - package.json
     - sass
     - sass/*
+include:
+    - bower_components/leaflet
 timezone: "America/New_York"
 future: false
 permalink: "/:categories/:title/"
