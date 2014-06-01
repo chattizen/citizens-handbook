@@ -6,9 +6,9 @@ categories:
 excerpt: | 
     The Hamilton County Commission is a legislative body consisting of nine elected representatives.
 
-    It's primary responsibility is to oversee the spending of the mayor, his administration and other constitutional offices.
+    Its primary responsibility is to oversee the spending of the mayor, his administration and other constitutional offices in county government.
 
-    Commission members meet weekly at the Hamilton County Courthouse on Georgia Avenue. 
+    Commissioners meet every Wednesday on the fourth floor of the Hamilton County Courthouse, located at 625 Georgia Ave. The commission typically holds regular meetings every other week. Agenda sessions, followed by committee meetings, are held on the weeks in between. All commission meetings begin at 9:30 a.m.
 boundaries: /boundry-files/commission.json
 ---
 
