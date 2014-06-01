@@ -17,4 +17,4 @@
     Doctype: HTML5
     IDE: Sublime Text
     Standards: HTML5, CSS3
-    Components: Bootstrap, HTML5 Boilerplate, Jekyll, jQuery, Modernizr
+    Components: HTML5 Boilerplate, Jekyll, jQuery, Modernizr
