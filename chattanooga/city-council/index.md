@@ -1,6 +1,6 @@
 ---
 title: City Council
-layout: post
+layout: boundary-map
 categories:
     - chattanooga
 excerpt: | 
@@ -15,6 +15,7 @@ address:
     region:         TN
     postal_code:    37402
 ocdid: /country:us/state:tn/place:chattanooga
+boundaries: /boundary-files/council.json
 ---
 
 The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money. The council meets every Tuesday to vote on legislation.

@@ -1,7 +1,7 @@
 var fs          =   require('fs');
 var sourceJS    =   [];
 var jsFiles     =   fs.readdirSync('./static/js');
-var jsIgnore    =   ['mustache.js'];
+var jsIgnore    =   ['mustache.js', 'topojson.js'];
 var i           =   jsFiles.length;
 
 while(i--) {
@@ -37,14 +37,19 @@ module.exports  =   function(grunt) {
         },
         uglify: {
             options: {
-                beautify: true
+                sourceMap: true
             },
             dist: {
                 files: {
-                    'static/js/core.min.js': ['static/js/core.js'],
+                    'static/js/core.min.js': ['bower_components/topojson/topojson.js', 'static/js/core.js'],
                     'static/js/ocd-divisions.min.js': ['static/js/ocd-divisions.js'],
-                    'static/js/find-your-rep.min.js': ['static/js/mustache.js', 'static/js/ocd-divisions.js', 'static/js/find-your-rep.js']
+                    'static/js/find-your-rep.min.js': ['static/js/mustache.js', 'static/js/ocd-divisions.js', 'static/js/find-your-rep.js'],
                 }
+            }
+        },
+        'json-minify': {
+            build: {
+                files: 'boundary-files/*.json'
             }
         },
         exec: {
@@ -70,12 +75,14 @@ module.exports  =   function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-json-minify');
     grunt.loadNpmTasks('grunt-exec');
     grunt.registerTask('default', ['watch']);
     grunt.registerTask('build', [
         'sass',
         'jshint',
         'uglify',
+        'json-minify',
         'exec:build'
     ]);
 };

@@ -1,6 +1,6 @@
 ---
 title: County Commission
-layout: post
+layout: boundary-map
 categories:
     - hamco
 excerpt: | 
@@ -9,6 +9,7 @@ excerpt: |
     It's primary responsibility is to oversee the spending of the mayor, his administration and other constitutional offices.
 
     Commission members meet weekly at the Hamilton County Courthouse on Georgia Avenue. 
+boundaries: /boundry-files/commission.json
 ---
 
 The Hamilton County Commission is a legislative body. It primarily oversees the decisions by the mayor, his administration, and other constitutional officers in Hamilton County government. Often, this is accomplished through oversight of public dollars.
