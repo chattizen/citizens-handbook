@@ -4,15 +4,19 @@ layout: post
 categories:
     - hamco
 excerpt: |
-    The mayor is Hamilton County's chief executive officer.
+    The mayor is the chief executive of Hamilton County government. He is popularly elected every four years.
+
+    He steers the overall direction of county government and is responsible for managing daily operations. He executes the policies of the state of Tennessee and the County Commission, primarily through the delivery of government services to the public and other offices in county government.
+
+    He is the county's chief financial officer and is responsible for its financial assets and liabilities. He presents the county's budget to the County Commission each year and requests money from the county trustee to fund operations.
 ocdid: /country:us/state:tn/county:hamilton/countywide
 ---
 
 The mayor is the chief executive of Hamilton County government. He is popularly elected every four years.
 
-The mayor steers the overall direction of county government and is responsible for managing daily operations. He executes the policies of the state of Tennessee and the county commission, primarily through the delivery of government services to the public and other offices in county government.
+He steers the overall direction of county government and is responsible for managing daily operations. He executes the policies of the state of Tennessee and the County Commission, primarily through the delivery of government services to the public and other offices in county government.
 
-The mayor is the county's chief financial officer and is responsible for its financial assets and liabilities. He presents the county's budget to the county commission each year and requests money from the county trustee to fund operations.
+He is the county's chief financial officer and is responsible for its financial assets and liabilities. He presents the county's budget to the County Commission each year and requests money from the county trustee to fund operations.
 
 He has some oversight of the County Commission. He sits on the commission as a non-voting ex officio member. He signs resolutions into law, or if he chooses, vetoes them.
 
@@ -32,7 +36,7 @@ The administration consists of four divisions, with each division comprised of s
 
 The [finance division](http://www.hamiltontn.gov/Finance/) manages Hamilton County's financial affairs. It monitors and tracks all revenues, expenditures and assets. It prepares financial reports for county, state and federal agencies.
 
-Finance is integral to the development of the county's annual budget. It works with the mayor, county commission and every department and office of county government for six to seven months to arrive at a final budget.
+Finance is integral to the development of the county's annual budget. It works with the mayor, County Commission and every department and office of county government for six to seven months to arrive at a final budget.
 
 Finance also supervises the purchasing of goods and services from outside vendors. It manages the county's investment portfolio. It identifies and minimizes risk. It oversees the county's IT department.
 
@@ -42,7 +46,7 @@ The finance division consists of 4 departments: accounting, financial management
 
 + Administrator: Becky Barnes
 
-The [health services division](http://health.hamiltontn.org) is better known as the Chattanooga-Hamilton County Health Department. It serves as the local liaison for Tennessee's Department of Health. It administers state and federal health programs and enforces TDOH regulations. Some of the division's funding comes directly from the state.
+The [health services division](http://health.hamiltontn.org) is better known as the Chattanooga-Hamilton County Health Department. It serves as the local liaison for Tennessee's Department of Health. It administers state and federal health programs and enforces TDOH regulations. Much of the division's funding comes directly from the state.
 
 The health department provides clinical health care, dental care and case management for residents. It archives certain medical records, including birth and death certificates.
 
@@ -62,7 +66,7 @@ Major components of the division include the Silverdale Corrections Facility and
 
 Human services provides more than 200 programs and services to county residents.
 
-The human services division consists of four departments: corrections, emergency services, maintenance and parks and recreation.
+The division consists of four departments: corrections, emergency services, maintenance and parks and recreation.
 
 ### Public Works
 
