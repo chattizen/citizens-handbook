@@ -52,22 +52,49 @@ module.exports  =   function(grunt) {
                 files: 'boundary-files/*.json'
             }
         },
-        exec: {
-            build: {
-                cmd: 'jekyll build'
-            },
-            serve: {
-                cmd: 'jekyll serve -w'
-            }
-        },
         watch: {
             css: {
                 files: 'static/sass/*.scss',
-                tasks: ['sass']
+                tasks: ['newer:sass']
             },
             js: {
                 files: sourceJS,
-                tasks: ['jshint', 'uglify']
+                tasks: ['newer:jshint', 'newer:uglify']
+            },
+            html: {
+                files: [
+                            '**/*.html',
+                            '**/*.md',
+                            '**/*.markdown',
+                            '**/*.txt',
+                            '!_site/**/*.html',
+                            '!**/node_modules/**',
+                            '!**/bower_components/**'
+                        ],
+                tasks: ['jekyll']
+            },
+            json: {
+                files: ['boundary-files/*.json'],
+                tasks: ['json-minify']
+            }
+        },
+        connect: {
+            server: {
+                options: {
+                    livereload: true,
+                    base: '_site/',
+                    port: 4000
+                }
+            }
+        },
+        jekyll: {
+            options: {
+                src: '<%= app %>'
+            },
+            dist: {
+                options: {
+                    config: '_config.yml'
+                }
             }
         }
     });
@@ -76,13 +103,19 @@ module.exports  =   function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-json-minify');
-    grunt.loadNpmTasks('grunt-exec');
-    grunt.registerTask('default', ['watch']);
+    grunt.loadNpmTasks('grunt-jekyll');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-newer');
+    grunt.registerTask('default', [
+        'jekyll',
+        'connect:server',
+        'watch'
+    ]);
     grunt.registerTask('build', [
         'sass',
         'jshint',
         'uglify',
         'json-minify',
-        'exec:build'
+        'jekyll'
     ]);
 };
