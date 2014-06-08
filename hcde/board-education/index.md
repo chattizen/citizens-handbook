@@ -6,21 +6,21 @@ categories:
 excerpt:
 ---
 
-The Hamilton County Board of Education is a legislative and policy-making body.
+The Hamilton County Board of Education is a legislative and policy-making body that manages and controls the public school system.
 
-Board members are elected from the districts they represent. The districts coincide with the Hamilton County Commission.
+The board consists of nine elected representatives. Board members are elected from the districts they represent. The districts coincide with the Hamilton County Commission.
 
 Members serve staggered four-year terms — approximately half of the board is elected every two years — and they are not term-limited. School board elections are nonpartisan.
 
-+ District 1: Rhonda Thurman
-+ District 2: Jonathan Welch
-+ District 3: Greg Martin
-+ District 4: George Ricks
-+ District 5: Jeffrey Wilson
-+ District 6: Joe Galloway
-+ District 7: Donna Horn
-+ District 8: David Testerman
-+ District 9: Mike Evatt, Chair
++ [District 1: Rhonda Thurman](./district-1.html)
++ [District 2: Jonathan Welch](./district-2.html)
++ [District 3: Greg Martin](./district-3.html)
++ [District 4: George Ricks](./district-4.html)
++ [District 5: Jeffrey Wilson](./district-5.html)
++ [District 6: Joe Galloway](./district-6.html)
++ [District 7: Donna Horn](./district-7.html)
++ [District 8: David Testerman](./district-8.html)
++ [District 9: Mike Evatt, Chair](./district-9.html)
 
 The school board is responsible for the public school system in Hamilton County. It follows the policies, rules and regulations set by the Tennessee Board of Education and enforces them on a local level.
 
