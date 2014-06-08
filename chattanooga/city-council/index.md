@@ -18,7 +18,7 @@ ocdid: /country:us/state:tn/place:chattanooga
 boundaries: /boundary-files/council.json
 ---
 
-The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions, especially when it comes to spending money. The council meets every Tuesday to vote on legislation.
+The Chattanooga City Council is a legislative body. It oversees many of the administration's decisions and public spending. The council meets every Tuesday to vote on legislation.
 
 The city is divided into nine districts. Each district elects one council member. While all nine districts have about the same number of people living in them, each different has different priorities. 
 
