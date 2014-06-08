@@ -30,11 +30,9 @@ Many of the mayor's primary duties are executed by the administration. The admin
 
 The administration consists of four divisions, with each division comprised of several departments.
 
-### Finance
+### Finance Division
 
-+ Administrator: Albert Kiser
-
-The [finance division](http://www.hamiltontn.gov/Finance/) manages Hamilton County's financial affairs. It monitors and tracks all revenues, expenditures and assets. It prepares financial reports for county, state and federal agencies.
+The finance division manages Hamilton County's financial affairs. It monitors and tracks all revenues, expenditures and assets. It prepares financial reports for county, state and federal agencies.
 
 Finance is integral to the development of the county's annual budget. It works with the mayor, County Commission and every department and office of county government for six to seven months to arrive at a final budget.
 
@@ -42,11 +40,11 @@ Finance also supervises the purchasing of goods and services from outside vendor
 
 The finance division consists of 4 departments: accounting, financial management, purchasing and contract management, and information technology services.
 
-### Health Services
+[Read more](./finance.html)
 
-+ Administrator: Becky Barnes
+### Health Services Division
 
-The [health services division](http://health.hamiltontn.org) is better known as the Chattanooga-Hamilton County Health Department. It serves as the local liaison for Tennessee's Department of Health. It administers state and federal health programs and enforces TDOH regulations. Much of the division's funding comes directly from the state.
+The health services division is better known as the Chattanooga-Hamilton County Health Department. It serves as the local liaison for Tennessee's Department of Health. It administers state and federal health programs and enforces TDOH regulations. Much of the division's funding comes directly from the state.
 
 The health department provides clinical health care, dental care and case management for residents. It archives certain medical records, including birth and death certificates.
 
@@ -56,11 +54,11 @@ In addition to executing state policies, the health department also follows the 
 
 The health services division consists of five departments: administrative services, environmental health, case management, clinical services and community health services.
 
-### Human Services
+[Read more](./health-services.html)
 
-+   Administrator: Don Allen
+### Human Services Division
 
-The [human services division](http://www.hamiltontn.gov/HumanServices/) encompasses a wide range of government services, programs and responsibilities in Hamilton County.
+The human services division encompasses a wide range of government services, programs and responsibilities in Hamilton County.
 
 Major components of the division include the Silverdale Corrections Facility and ambulance services for most of the county. Parts of the Tennessee Riverpark system are part of human services, as is maintenance for county-owned buildings and facilities.
 
@@ -68,16 +66,16 @@ Human services provides more than 200 programs and services to county residents.
 
 The division consists of four departments: corrections, emergency services, maintenance and parks and recreation.
 
-### Public Works
+[Read more](./human-services.html)
 
-+   Administrator: Todd Leamon
+### Public Works Division
 
-The [public works division](http://www.hamiltontn.gov/PublicWorks/) maintains Hamilton County's public infrastructure and oversees major capital projects.
+The public works division maintains Hamilton County's public infrastructure and oversees major capital projects.
 
 Public works also provides regulatory oversight for the unincorporated areas of the county and some of its municipalities.
 
 The division consists of three departments — building inspection, engineering and highway — but also encompasses other services like recycling, water treatment and managing sales and lease agreements for county-owned properties.
 
-
+[Read more](./public-works.html)
 
 
