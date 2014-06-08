@@ -38,9 +38,11 @@ The mayor's administration has a long list of roles and responsibilities that ra
 
 The Chattanooga Police Department (CPD) is the city's law enforcement agency.
 
-The department is divided into three commands: uniform services, investigative services, and administration and support.
+The department enforces laws, preserves the peace, maintains order, combats crime and works to make Chattanooga safe.
 
-The CPD employs more than 400 sworn officers. Most of them work in the patrol division of uniform services.
+The department is divided into three commands: uniform services, investigative services, and administration and support services.
+
+More than 400 sworn officers, as well as civilian staff, work for the CPD.
 
 [Read more](./police.html)
 
