@@ -6,9 +6,15 @@ categories:
 excerpt: | 
     The Hamilton County Commission is a legislative body. It primarily oversees the decisions by the mayor, his administration, and other constitutional officers in Hamilton County government. Often, this is accomplished through oversight of public dollars.
 
+<<<<<<< HEAD
     The county is divided into nine districts. Each district elects one commissioner every four years.
 
     Commission members meet weekly at the Hamilton County Courthouse on Georgia Avenue to discuss and vote on resolutions.
+=======
+    Its primary responsibility is to oversee the spending of the mayor, his administration and other constitutional offices in county government.
+
+    Commissioners meet every Wednesday on the fourth floor of the Hamilton County Courthouse, located at 625 Georgia Ave. The commission typically holds regular meetings every other week. Agenda sessions, followed by committee meetings, are held on the weeks in between. All commission meetings begin at 9:30 a.m.
+>>>>>>> upstream/gh-pages
 boundaries: /boundry-files/commission.json
 ---
 
