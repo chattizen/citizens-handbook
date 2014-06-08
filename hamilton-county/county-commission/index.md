@@ -4,17 +4,23 @@ layout: boundary-map
 categories:
     - hamco
 excerpt: | 
-    The Hamilton County Commission is a legislative body consisting of nine elected representatives.
+    The Hamilton County Commission is a legislative body. It primarily oversees the decisions by the mayor, his administration, and other constitutional officers in Hamilton County government. Often, this is accomplished through oversight of public dollars.
 
+<<<<<<< HEAD
+    The county is divided into nine districts. Each district elects one commissioner every four years.
+
+    Commission members meet weekly at the Hamilton County Courthouse on Georgia Avenue to discuss and vote on resolutions.
+=======
     Its primary responsibility is to oversee the spending of the mayor, his administration and other constitutional offices in county government.
 
     Commissioners meet every Wednesday on the fourth floor of the Hamilton County Courthouse, located at 625 Georgia Ave. The commission typically holds regular meetings every other week. Agenda sessions, followed by committee meetings, are held on the weeks in between. All commission meetings begin at 9:30 a.m.
+>>>>>>> upstream/gh-pages
 boundaries: /boundry-files/commission.json
 ---
 
 The Hamilton County Commission is a legislative body. It primarily oversees the decisions by the mayor, his administration, and other constitutional officers in Hamilton County government. Often, this is accomplished through oversight of public dollars.
 
-The county is divided into nine districts. Each district elects one commissioner.
+The county is divided into nine districts. Each district elects one commissioner every four years.
 
 + [District 1: Fred Skillern, Chair](./district-1.html)
 + [District 2: James Fields](./district-2.html)
@@ -40,8 +46,6 @@ The meetings follow an agenda, which lists the resolutions commissioners will be
 ### Voting
 
 The County Commission makes decisions on resolutions by a simple majority vote. Each commissioner represents one district. Each district effectively has one vote.
-
-Most resolutions are routine and pass unanimously with nine votes. A more contentious piece of legislation may pass with five "yes" votes and four "no" votes. It may also fail with less than five "yes" votes.
 
 ### Officers and Committees
 
