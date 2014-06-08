@@ -28,13 +28,13 @@ He often weighs in on decisions that affect the area, such as the recruitment of
 
 He is also the city's spokesman to business leaders and state and federal officials. 
 
-### Administration
+## Administration
 
 At the beginning of a term, the mayor determines what the overall structure of city government will be. He creates departments, names administrators to head them, and determines what services they will provide. Four departments are required by the city's charter—police, fire, public works and finance. The remaining departments are up to the mayor to decide.
 
 The mayor's administration has a long list of roles and responsibilities that range from public safety to economic development. The current administration consists of seven departments. Each department is divided into other offices and agencies.
 
-#### Police
+### Police
 
 The Chattanooga Police Department (CPD) is the city's law enforcement agency.
 
@@ -46,7 +46,7 @@ More than 400 sworn officers, as well as civilian staff, work for the CPD.
 
 [Read more](./police.html)
 
-#### Fire
+### Fire
 
 The Chattanooga Fire Department (CFD) responds to many emergency situations in the city limits.
 
@@ -56,7 +56,7 @@ About 400 professional firefighters in the suppression and emergency operations 
 
 [Read more](./fire.html)
 
-#### Public Works
+### Public Works
 
 The Department of Public Works oversees many of Chattanooga's sanitation and infrastructure systems.
 
@@ -64,7 +64,7 @@ It consists of four main divisions: parks, garbage and recycling, city engineeri
 
 [Read more](./public-works.html)
 
-#### Finance
+### Finance
 
 The Finance Department manages city government's expenditures and revenue. 
 
@@ -72,7 +72,7 @@ The department consists of three divisions: finance, treasury and city court cle
 
 [Read more](./finance.html)
 
-#### Economic and Community Development
+### Economic and Community Development
 
 The Department of Economic and Community Development oversees federal programs, code enforcement and regional planning.
 
@@ -80,7 +80,7 @@ It is divided into six divisions: comunity developement, land development, neigh
 
 [Read more](./economic-community-development.html)
 
-#### Youth and Family Development
+### Youth and Family Development
 
 The Department of Youth and Family Development manages the staff and programming at community centers. 
 
@@ -88,7 +88,7 @@ The department has five focus areas: education, leadership, career development, 
 
 [Read more](./youth-family-development.html)
 
-#### Transportation
+### Transportation
 
 The Transportation Department manages the city's transportation network and works with other transportation agencies.
 
