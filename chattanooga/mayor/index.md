@@ -14,15 +14,15 @@ ocdid: /country:us/state:tn/place:chattanooga/citywide
 
 The mayor is the chief executive who runs Chattanooga city government.
 
-He oversees a large administration that provides government services. The structure of this government is mostly determined by the mayor himself.
+He oversees a large administration that provides government services. The structure of this government is mostly determined by the mayor himself. However, he is required by the City Charter to appoint some administrators, including a police chief, fire chief, finance officer and treasurer.
 
-He is popularly elected in a citywide election every four years. The current mayor, Andy Berke, was first elected in March 2013. Chattanooga's mayor is limited to serving two consecutive terms in office.
+The mayor is popularly elected in a citywide election every four years. The current mayor, Andy Berke, was first elected in March 2013. Chattanooga's mayor is limited to serving two consecutive terms in office.
 
 The mayor is required to submit an annual budget to the City Council each year. The budget determines which operations and infrastructure projects will be funded in the coming year.
 
 Though he does not sit on the council, or vote on legislation, the mayor's office and administration propose most of the ordinances and resolutions that go before council members.
 
-Chattnaooga's mayor also makes appointments to [regulatory boards and commissions](http://www.chattanooga.gov/boards-commissions). He, along with the mayor of Hamilton County, has an automatic seat on the boards of many local and regional organizations.
+Chattanooga's mayor also makes appointments to [regulatory boards and commissions](http://www.chattanooga.gov/boards-commissions). He, along with the mayor of Hamilton County, has an automatic seat on the boards of many local and regional organizations.
 
 He often weighs in on decisions that affect the area, such as the recruitment of new industries, long-term planning and regional growth.
 
