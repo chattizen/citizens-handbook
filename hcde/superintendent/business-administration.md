@@ -1,5 +1,5 @@
 ---
-title: Finance
+title: Business Administration
 layout: post
 categories:
     - hcde
