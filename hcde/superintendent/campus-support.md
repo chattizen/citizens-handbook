@@ -5,3 +5,5 @@ categories:
     - hcde
 excerpt:
 ---
+
+Assistant Superintendent Lee McDade

@@ -13,7 +13,7 @@ excerpt: |
     More than 400 sworn officers, as well as civilian staff, work for the CPD.
 ---
 
-Administrator: Police Chief Stan Maffett (Interim)
+Police Chief Fred Fletcher
 
 The Chattanooga Police Department (CPD) is the city's law enforcement agency.
 

@@ -1,14 +1,65 @@
 ---
-title: 11th Judicial District
+title: Judicial
 layout: default
 ---
 
-
         <h1>{{ page.title }}</h1>
-        <p>Tennessee's 11th judicial district covers Hamilton County and consists of four courts and two attorneys.</p>
+        <p>Tennessee's 11th judicial district covers Hamilton County and consists of four courts and two attorneys. Two courts of limited jurisdiction are also included here.</p>
+
         <dl>
-        {% for post in site.categories.judicial %}
-            <dt><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></dt>
-            <dd>{{ post.content }}</dd>
-        {% endfor %}
+          <dt>
+            <h2>Chancery Court</h2>
+          </dt>
+          <dd>
+            <p>The chancery court covers civil cases of an equitable nature, including conflicts over property, financial assets, debt and contracts.</p>
+            <p><a href="./chancery-court">Read more</a></p>
+          </dd>
+          
+          <dt>
+            <h2>Circuit Court</h2>
+          </dt>
+          <dd>
+            <p>The circuit court covers a wide range of civil cases, including suits for damages, contractual disputes, domestic relations cases and worker's compensation.</p>
+            <p><a href="./circuit-court">Read more</a></p>
+          </dd>
+
+          <dt>
+            <h2>Criminal Court</h2>
+          </dt>
+          <dd>
+            <p>The criminal court presides over criminal cases involving felonies and misdemeanors.</p>
+            <p><a href="./criminal-court">Read more</a></p>
+          </dd>
+
+          <dt>
+            <h2>General Sessions Court</h2>
+          </dt>
+          <dd>
+            <p>The general sessions court covers civil disputes and misdemeanors.</p>
+            <p><a href="./general-sessions-court">Read more</a></p>
+          </dd>
+
+          <dt>
+            <h2>Juvenile Court</h2>
+          </dt>
+          <dd>
+            <p>Juvenile court covers cases involving minors alleged to be delinquent, unruly, dependent or neglected. The court presides over cases involving child support, paternity, visitation and absentee parents.</p>
+            <p><a href="./juvenile-court">Read more</a></p>
+          </dd>
+
+          <dt>
+            <h2>District Attorney</h2>
+          </dt>
+          <dd>
+            <p>The district attorney prosecutes criminal cases before the general sessions and criminal courts, and he prosecutes juvenile delinquency cases brought before juvenile court.</p>
+            <p><a href="./district-attorney">Read more</a></p>
+          </dd>
+
+          <dt>
+            <h2>Public Defender</h2>
+          </dt>
+          <dd>
+            <p>The public defender provides legal counsel to people who are accused of crimes and cannot afford a private attorney.</p>
+            <p><a href="./public-defender">Read more</a></p>
+          </dd>
         </dl>
