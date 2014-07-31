@@ -26,24 +26,28 @@ img[data-src] {
 }
 
 #heroshot {
-    max-width: $containerMaxWidth + 40;
+    width: 100%;
+    max-width: 1200px;
+    background: url('../img/bg.jpg') no-repeat top center;
+    background-size: cover;
+    height: 200px;
     margin: 0 auto;
-    img {
-        max-width: 100%;
-        display: block;
+    @include responsive("(min-width: 1024px)") {
+        height: 400px;
+        background-image: url('../img/bg@2x.jpg');
+        background-size: cover;
     }
-    figcaption {
-        display: block;
-        text-align: right;
-        color: transparentize($gray, 0.5);
-        margin: 0.5em 0 0;
-        padding: 0 20px;
+    @include responsive("(min-width: 1200px)") {
+        background-size: cover;
     }
 }
 
 #main {
     line-height: 1.5;
     @include container;
+    .boxsizing & {
+        max-width: 1200px;
+    }
     a {
         @include transition(0.25s);
         color: $green;

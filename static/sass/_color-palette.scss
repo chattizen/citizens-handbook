@@ -1,0 +1,36 @@
+// colors
+
+$white:         #fff;
+$black:         #000;
+$teal:          rgb(  0, 129, 124);
+$tealLight:     rgb( 84, 190, 152);
+$orange:        rgb(240,  95,  42);
+$gray:          rgb(166, 168, 171);
+$grayDark:      rgb( 64,  64,  64);
+$blue:          rgb( 33, 166, 176);
+$blueLight:     rgb(133, 206, 212);
+$yellow:        rgb(252, 209,  39);
+$green:         rgb( 84, 123,  56);
+$greenBright:   rgb(171, 188,  56);
+$greenLight:    rgb(183, 201, 146);
+$red:           rgb(209,  36,  38);
+$brown:         rgb( 64,  40,  12);
+
+$brand:         $teal !default;
+$vehicles:      $teal !default;
+$education:     $greenLight !default;
+$realty:        $orange !default;
+$property:      $realty !default;
+$sightseeing:   $yellow !default;
+$emergencies:   $red !default;
+$news:          $blueLight !default;
+$politics:      $news !default;
+$roads:         $gray !default;
+$environment:   $greenLight !default;
+$maps:          $green !default;
+$taxes:         $greenBright !default;
+$questions:     $brown !default;
+
+$facebook:      rgb( 64,  90, 161);
+$twitter:       rgb( 22, 176, 235);
+$youtube:       rgb(215,  61,  50);

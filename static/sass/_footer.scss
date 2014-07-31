@@ -1,0 +1,80 @@
+#ft {
+    background: $blueLight;
+    color: $white;
+    padding: 2em 0;
+    text-align: center;
+    @include responsive("(min-width: 880px)") {
+        text-align: left;
+    }
+    nav {
+        margin: 1em auto 0;
+        padding: 0 0 1em;
+        border-bottom: 1px solid $white;
+        &:first-child {
+            margin-top: 0;
+        }
+        @include responsive("(min-width: 880px)") {
+            float: left;
+            margin: 0 2em 0 0;
+            padding: 6px 2em 6px 0;
+            border-bottom: 0;
+            border-right: 1px solid $white;
+            min-height: 48px;
+            .boxsizing & {
+                min-height: 60px;
+            }
+            &:last-child {
+                margin-left: 0;
+                padding-left: 0;
+                border-right: 0;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    .social {
+        @include clearfix;
+        .fa {
+            font-size: em(48);
+        }
+        li {
+            display: inline;
+            margin-left: 1em;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    .sponsors {
+        @include responsive("(min-width: 880px)") {
+            float: none;
+            p {
+                float: left;
+                margin: 0 1em 0 0;
+                line-height: 48px;
+                vertical-align: middle;
+            }
+            li {
+                float: left;
+                margin: 0 0 0 1em;
+                line-height: 1;
+                padding: 4px 0;
+                &:first-child {
+                    margin-left: 0;
+                }
+                a {
+                    display: block;
+                }
+            }
+        }
+    }
+    .benwood {
+        @include hide-text;
+        display: inline-block;
+        width: 140px;
+        height: 40px;
+        @include retina-image('../img/benwood', 140px 40px);
+    }
+}

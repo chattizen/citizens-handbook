@@ -52,10 +52,22 @@ module.exports  =   function(grunt) {
                 files: 'boundary-files/*.json'
             }
         },
+        copy: {
+            css: {
+                files: [
+                    {expand: true, src: ['static/css/*'], dest: '_site/', filter: 'isFile'}
+                ]
+            },
+            images: {
+                files: [
+                    {expand: true, src: ['static/img/*'], dest: '_site/'}
+                ]
+            }
+        },
         watch: {
             css: {
                 files: 'static/sass/*.scss',
-                tasks: ['newer:sass']
+                tasks: ['sass', 'copy:css']
             },
             js: {
                 files: sourceJS,
@@ -76,6 +88,10 @@ module.exports  =   function(grunt) {
             json: {
                 files: ['boundary-files/*.json'],
                 tasks: ['json-minify']
+            },
+            images: {
+                files: ['static/img/**'],
+                tasks: ['copy:images']
             }
         },
         connect: {
@@ -106,6 +122,7 @@ module.exports  =   function(grunt) {
     grunt.loadNpmTasks('grunt-jekyll');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-newer');
+    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.registerTask('default', [
         'jekyll',
         'connect:server',

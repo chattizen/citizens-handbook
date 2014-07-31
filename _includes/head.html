@@ -1,6 +1,6 @@
 <!doctype HTML>
 <!--[if lte IE 8]>              <html lang="en-US" class="no-js ie {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"> <![endif]-->
-<!--[if (gt IE 8)|!(IE)]><!-->  <html lang="en-US" class="no-js {{ page.url | slugify | replace: '/',' ' | replace: '.html','' }}"><!--<![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!-->  <html lang="en-US" class="no-js {{ page.page_class }} {{ page.url | slugify | replace: '/',' ' | replace: 'index.html','' | replace: 'index','' }}"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Chattanooga &amp; Hamilton County Tennessee Citizens' Handbook</title>

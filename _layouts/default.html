@@ -2,13 +2,9 @@
 
         {% include header.html %}
 
-        {% if page.hero.src %}
-        <figure id="heroshot">
-            <img src="{{ site.domain }}/static/img/{{ page.hero.src }}" alt="{{ page.hero.alt }}">
-            {% if page.hero.caption %}
-            <figcaption>{{ page.hero.caption }}</figcaption>
-            {% endif %}
-        </figure>
+        {% if page.no_heroshot %}
+        {% else %}
+        <figure id="heroshot"></figure>
         {% endif %}
 
         <main id="main">

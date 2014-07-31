@@ -1,0 +1,93 @@
+.home {
+    body {
+        color: $white;
+    }
+    #main {
+        max-width: 100%;
+        .boxsizing & {
+            max-width: 100%;
+        }
+        text-align: center;
+        padding: 100px 0 0; // make room for header
+        background: url('../img/bg.jpg') no-repeat top center;
+        background-size: contain;
+        @include responsive("(min-width: 880px)") {
+            background-size: contain;
+        }
+        @include responsive("(min-width: 1024px)") {
+            background-image: url('../img/bg@2x.jpg');
+            background-size: contain;
+        }
+        @include responsive("(min-width: 1200px)") {
+            background-size: cover;
+        }
+        h2 {
+            color: inherit;
+            margin: 0 auto;
+            font-size: em(24);
+            @include responsive("(min-width: 680px)") {
+                font-size: em(36);
+            }
+        }
+        p {
+            margin: 0 auto;
+            font-weight: 200;
+            @include responsive("(min-width: 680px)") {
+                font-size: em(24);
+            }
+        }
+        h2 + p,
+        p + p {
+            margin-top: 0.5em;
+        }
+    }
+    #tagline {
+        overflow: hidden;
+        margin: -20px 0 0; // make up for the header padding
+        h1 {
+            font-family: $sansSerif;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $white;
+            font-size: em(18);
+            margin: 1em auto;
+            @include responsive("(min-width: 480px)") {
+                font-size: em(24);
+                margin: 2em auto;
+            }
+            @include responsive("(min-width: 680px)") {
+                font-size: em(36);
+                margin: 4em auto;
+            }
+            @include responsive("(min-width: 1024px)") {
+                margin: 6em auto;
+            }
+            @include responsive("(min-width: 1400px)") {
+                margin: 8em auto;
+            }
+        }
+    }
+    #welcome {
+        background: $orange;
+        padding: 2em 0;
+        color: $white;
+    }
+    #tools {
+        background: $white;
+        color: $brand;
+        padding: 2em 0;
+    }
+    #what-is-chattizen {
+        background: $brand;
+        color: $white;
+        padding: 2em 0;
+        p {
+            text-align: left;
+        }
+        a {
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+}
