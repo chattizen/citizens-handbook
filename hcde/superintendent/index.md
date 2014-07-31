@@ -28,7 +28,7 @@ The Accountability and Testing department is responsible for state reporting on 
 
 ## Education and Leadership Support
 
-The division of Education and Leadership includes all pre-K through 12 departments that support curriculum, instruction, and school administration and leadership. Included in this division are the departments of Elementary and Secondary Education, Federal Programs, Career & Technical Education, ESOL, Magnet Schools, Special Programs, Exceptional Education, JROTC, STARS, Pre-K , and Parent/Community Involvement. 
+The division of Education and Leadership includes all pre-K through 12 departments that support curriculum, instruction, and school administration and leadership.
 
 [Read more](./education-leadership-support.html)
 
