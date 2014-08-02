@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Chattizen | About
+layout: post
+title: About Chattizen
 ---
 
 Chattizen is a citizen's guide to local government in Chattanooga, Tenn. 
