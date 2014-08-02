@@ -5,7 +5,7 @@ title: Chattizen | About
 
 Chattizen is a citizen's guide to local government in Chattanooga, Tenn. 
 
-Low voter turnout has become a common, yet unfortunate, refrain in our elections. Yet local government plays an important role in determining the quality of life in our region.
+Low voter turnout has become a common, yet unfortunate, refrain in our elections. Yet local government plays an important role in determining the quality of life here.
 
 One of the reasons for this disconnect is the lack of basic information about local government. We created these tools and resources to help you navigate important public institutions.
 
