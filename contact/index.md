@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chattizen | Public Contacts
+title: Chattizen | Useful Contacts
 ---
 
 # Who do I call for emergencies?
