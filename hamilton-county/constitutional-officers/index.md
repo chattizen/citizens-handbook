@@ -54,10 +54,10 @@ The office also collects property taxes for other municipalities, excluding Chat
 
 ### Court Clerks
 
-+ Circuit Court Clerk: Paula Thompson
-+ Criminal Court Clerk: Gwen Tidwell 
-+ Juvenile Court Clerk: Gary Behler
-+ Clerk and Master: Lee Akers (appointed)
+Circuit Court Clerk Paula Thompson  
+Criminal Court Clerk Gwen Tidwell  
+Juvenile Court Clerk Gary Behler  
+Clerk and Master Lee Akers (appointed)
 
 Court clerks collect and prepare documents for the courts they serve. The clerk and master is not elected; he is appointed to a six-year term by chancellors.
 

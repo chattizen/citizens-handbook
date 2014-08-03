@@ -5,7 +5,7 @@ categories:
     - judicial
 ---
 
-+ Judge Robery Philyaw
++ Judge Robert Philyaw
 
 Juvenile court covers cases involving minors alleged to be delinquent, unruly, dependent or neglected. The court presides over cases involving child support, paternity, visitation and absentee parents.
 

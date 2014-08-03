@@ -64,9 +64,9 @@ It consists of four main divisions: parks, garbage and recycling, city engineeri
 
 [Read more](./public-works.html)
 
-### Finance
+### Finance and Administration
 
-The Finance Department manages city government's expenditures and revenue. 
+The Department of Finance and Administration manages city government's expenditures and revenue. 
 
 The department consists of three divisions: finance, treasury and city court clerk.
 
