@@ -6,7 +6,7 @@ categories:
 excerpt:
 ---
 
-Chief Financial Officer Daisy Madison
+City Finance Officer Daisy Madison
 
 The Finance Department manages city government's expenditures and revenue. 
 
