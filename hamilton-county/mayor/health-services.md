@@ -6,7 +6,7 @@ categories:
 excerpt:
 ---
 
-Administrator: Becky Barnes
+Administrator Becky Barnes
 
 The health services division is better known as the Chattanooga-Hamilton County Health Department. It serves as the local liaison for Tennessee's Department of Health. It administers state and federal health programs and enforces TDOH regulations. Much of the division's funding comes directly from the state.
 

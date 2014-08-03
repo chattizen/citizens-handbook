@@ -6,7 +6,7 @@ categories:
 excerpt:
 ---
 
-Administrator: Albert Kiser
+Administrator Albert Kiser
 
 The finance division manages Hamilton County's financial affairs. It monitors and tracks all revenues, expenditures and assets. It prepares financial reports for county, state and federal agencies.
 
