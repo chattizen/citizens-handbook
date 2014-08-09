@@ -139,11 +139,11 @@ img[data-src] {
             font-weight: bold;
             color: $grayDark;
         }
+        ul {
+            margin-top: -0.5em;
+        }
         li {
             margin: 0.5em auto 0;
-            &:first-child {
-                margin-top: 0;
-            }
         }
     }
 }
