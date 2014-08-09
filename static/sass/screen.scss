@@ -13,7 +13,14 @@ html {
 }
 
 body {
-    background: $white;
+    background: #012625 url('../img/bg.jpg') no-repeat top center;
+    background-size: contain;
+    padding-top: 200px;
+    @include responsive("(min-width: 1024px)") {
+        background-image: url('../img/bg@2x.jpg');
+        background-size: contain;
+        padding-top: 400px;
+    }
     .boxsizing & {
         * {
             box-sizing: border-box;
@@ -46,4 +53,5 @@ nav {
 @import "content";
 @import "forms";
 @import "home";
+@import "calendar";
 @import "footer";

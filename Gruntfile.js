@@ -44,6 +44,7 @@ module.exports  =   function(grunt) {
                     'static/js/core.min.js': ['bower_components/topojson/topojson.js', 'static/js/core.js'],
                     'static/js/ocd-divisions.min.js': ['static/js/ocd-divisions.js'],
                     'static/js/find-your-rep.min.js': ['static/js/mustache.js', 'static/js/ocd-divisions.js', 'static/js/find-your-rep.js'],
+                    'static/js/calendar.min.js': ['static/js/mustache.js', 'static/js/calendar.js']
                 }
             }
         },

@@ -27,6 +27,9 @@
         {% if page.script %}
         <script src="{{ site.domain }}/static/js/{{ page.script }}.min.js"></script>
         {% endif %}
+        {% for script in page.scripts %}
+        <script src="{{ script | replace: 'DOMAIN', site.domain }}"></script>
+        {% endfor %}
         <script async src="//platform.twitter.com/widgets.js"></script>
     </body>
 </html>

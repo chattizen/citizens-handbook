@@ -1,0 +1,46 @@
+---
+layout: default
+title: Calendar of Events
+permalink: /calendar/
+scripts: 
+    -   //www.google.com/jsapi
+    -   DOMAIN/static/js/calendar.min.js
+---
+
+<h1>{{ page.title }}</h1>
+
+<section id="calendar">
+    <noscript>
+        Sorry, you need JavaScript to view this page
+    </noscript>
+</section>
+
+<script type="text/mustache" id="template">
+{% raw %}
+    <h2 class="title">
+        <a href="#previous" title="Previous Month" class="fa fa-angle-left previous"></a>
+        {{ month }}
+        <a href="#next" title="Next Month" class="fa fa-angle-right next"></a>
+    </h2>
+    {{#events.length}}
+    <ul class="vcal">
+        {{#events}}
+        <li class="vevent">
+            <time class="date">
+                <span class="day">{{ day }}</span>
+                <span class="time">{{ time }}</span>
+            </time>
+            <h3 class="description">{{ title }}</h3>
+            {{#address}}
+            <address class="location"><a href="http://maps.google.com/?q={{ address }}" title="Get Directions" target="_blank"><i class="fa fa-map-marker"></i> {{ address }}</a></address>
+            {{/address}}
+            <div class="notes">{{{ content }}}</div>
+        </li>
+        {{/events}}
+    </ul>
+    {{/events.length}}
+    {{^events.length}}
+    <p class="no-events">There are no events for this&nbsp;month.</p>
+    {{/events.length}}
+{% endraw %}
+</script>

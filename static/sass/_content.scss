@@ -25,37 +25,41 @@ img[data-src] {
     display: none;
 }
 
-#heroshot {
-    width: 100%;
-    max-width: 1200px;
-    background: url('../img/bg.jpg') no-repeat top center;
-    background-size: cover;
-    height: 200px;
-    margin: 0 auto;
-    @include responsive("(min-width: 1024px)") {
-        height: 400px;
-        background-image: url('../img/bg@2x.jpg');
-        background-size: cover;
-    }
-    @include responsive("(min-width: 1200px)") {
-        background-size: cover;
-    }
-}
+// #heroshot {
+//     width: 100%;
+//     max-width: 1200px;
+//     background: url('../img/bg.jpg') no-repeat top center;
+//     background-size: cover;
+//     height: 200px;
+//     margin: 0 auto;
+//     @include responsive("(min-width: 1024px)") {
+//         height: 400px;
+//         background-image: url('../img/bg@2x.jpg');
+//         background-size: cover;
+//     }
+//     @include responsive("(min-width: 1200px)") {
+//         background-size: cover;
+//     }
+// }
 
 #main {
     line-height: 1.5;
     @include container;
+    background: $white;
+    border-top: 1px solid transparent;
+    margin-top: -1px;
+    @include clearfix;
     .boxsizing & {
         max-width: 1200px;
     }
     a {
         @include transition(0.25s);
-        color: $green;
+        color: $blue;
         text-decoration: none;
         &:hover,
         &:focus,
         &:active {
-            color: saturate($green, 10%);
+            color: saturate($blue, 10%);
         }
     }
     dl {

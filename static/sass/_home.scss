@@ -1,6 +1,11 @@
 .home {
     body {
         color: $white;
+        background: $teal;
+        padding-top: 0;
+        @include responsive("(min-width: 1024px)") {
+            padding-top: 0;
+        }
     }
     #main {
         max-width: 100%;
