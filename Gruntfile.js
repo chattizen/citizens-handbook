@@ -59,6 +59,11 @@ module.exports  =   function(grunt) {
                     {expand: true, src: ['static/css/*'], dest: '_site/', filter: 'isFile'}
                 ]
             },
+            js: {
+                files: [
+                    {expand: true, src: ['static/js/*.min.js', 'static/js/*.map'], dest: '_site', filter: 'isFile'}
+                ]
+            },
             images: {
                 files: [
                     {expand: true, src: ['static/img/*'], dest: '_site/'}
@@ -72,7 +77,7 @@ module.exports  =   function(grunt) {
             },
             js: {
                 files: sourceJS,
-                tasks: ['newer:jshint', 'newer:uglify']
+                tasks: ['newer:jshint', 'newer:uglify', 'copy:js']
             },
             html: {
                 files: [
