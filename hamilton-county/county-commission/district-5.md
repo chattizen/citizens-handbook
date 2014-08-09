@@ -1,6 +1,6 @@
 ---
 title: County Commission, 5th District
-layout: post
+layout: division
 categories:
     - hamco
 excerpt:

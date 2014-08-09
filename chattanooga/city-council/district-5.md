@@ -1,6 +1,6 @@
 ---
 title: City Council, 5th District
-layout: post
+layout: division
 categories:
     - chattanooga
 excerpt:

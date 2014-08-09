@@ -1,6 +1,6 @@
 ---
 title: County Commission, 2nd District
-layout: post
+layout: division
 categories:
     - hamco
 excerpt:

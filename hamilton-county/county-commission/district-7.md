@@ -1,6 +1,6 @@
 ---
 title: County Commission, 7th District
-layout: post
+layout: division
 categories:
     - hamco
 excerpt:

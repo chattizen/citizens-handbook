@@ -1,6 +1,6 @@
 ---
 title: County Commission, 4th District
-layout: post
+layout: division
 categories:
     - hamco
 excerpt:

@@ -1,6 +1,6 @@
 ---
 title: County Commission, 3rd District
-layout: post
+layout: division
 categories:
     - hamco
 excerpt:

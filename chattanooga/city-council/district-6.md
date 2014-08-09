@@ -1,6 +1,6 @@
 ---
 title: City Council, 6th District
-layout: post
+layout: division
 categories:
     - chattanooga
 excerpt:

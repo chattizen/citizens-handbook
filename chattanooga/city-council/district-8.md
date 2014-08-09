@@ -1,6 +1,6 @@
 ---
 title: City Council, 8th District
-layout: post
+layout: division
 categories:
     - chattanooga
 excerpt:

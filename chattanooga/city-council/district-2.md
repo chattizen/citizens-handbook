@@ -1,6 +1,6 @@
 ---
 title: City Council, 2nd District
-layout: post
+layout: division
 categories:
     - chattanooga
 excerpt:

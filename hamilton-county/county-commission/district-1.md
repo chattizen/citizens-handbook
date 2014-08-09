@@ -1,6 +1,6 @@
 ---
 title: County Commission, 1st District
-layout: post
+layout: division
 categories:
     - hamco
 excerpt:

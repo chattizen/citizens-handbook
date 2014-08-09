@@ -1,6 +1,6 @@
 ---
 title: City Council, 3rd District
-layout: post
+layout: division
 categories:
     - chattanooga
 excerpt:
