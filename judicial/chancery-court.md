@@ -13,9 +13,3 @@ The chancery court covers civil cases of an equitable nature, including conflict
 
 For chancery court records, contact the [master and clerk's office](http://www.hamiltontn.gov/courts/ClerkMaster/Default.aspx) at (423)209-6600.
 
-
-
-
-
-
-

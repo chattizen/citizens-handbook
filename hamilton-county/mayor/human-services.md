@@ -6,7 +6,7 @@ categories:
 excerpt:
 ---
 
-Administrator: Don Allen
+Administrator Don Allen
 
 The human services division encompasses a wide range of government services, programs and responsibilities in Hamilton County.
 

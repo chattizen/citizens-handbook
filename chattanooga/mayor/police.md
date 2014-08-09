@@ -3,14 +3,7 @@ title: Chattanooga Police Department
 layout: post
 categories:
     - chattanooga
-excerpt: | 
-    The Chattanooga Police Department (CPD) is the city's law enforcement agency.
-
-    The department enforces laws, preserves the peace, maintains order, combats crime and works to make Chattanooga safe.
-
-    The department is divided into three commands: uniform services, investigative services, and administration and support services.
-
-    More than 400 sworn officers, as well as civilian staff, work for the CPD.
+excerpt: 
 ---
 
 Police Chief Fred Fletcher
@@ -25,7 +18,7 @@ More than 400 sworn officers, as well as civilian staff, work for the CPD.
 
 [Website](http://www.chattanooga.gov/police-department)
 
-## Uniform Services
+### Uniform Services
 
 Uniform services consists of the patrol division, traffic division and special operations division. 
 
@@ -35,7 +28,7 @@ The traffic division investigates serious crashes. About 20 officers work in thi
 
 The special operations division consists of specialized support units, including special ops, K-9, school patrol and special event security.
 
-## Investigative Services
+### Investigative Services
 
 Investigative services consists of the major crimes, property crimes and special investigations divisions. More than a 100 sworn officers work in investigative services.
 
@@ -45,7 +38,7 @@ The major crimes division investigates crimes of a serious nature. The division 
 
 Major crimes is also home to the violence reduction initiative — a policing strategy intended to reduce shootings, murders and other violent crimes in Chattanooga.
 
-## Administration and Support Services
+### Administration and Support Services
 
 Administration and support services consists of a recruiting unit, technology unit, crime analysis unit, property section, and taxi and wrecker inspection office. 
 

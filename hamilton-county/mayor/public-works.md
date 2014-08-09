@@ -6,7 +6,7 @@ categories:
 excerpt:
 ---
 
-Administrator: Todd Leamon
+Administrator Todd Leamon
 
 The public works division maintains Hamilton County's public infrastructure and oversees major capital projects.
 
