@@ -1,0 +1,172 @@
+{
+    "municipalities":   [
+        "Apison",
+        "Bakewell",
+        "Birchwood",
+        "Chattanooga",
+        "Collegedale",
+        "East Brainerd",
+        "East Ridge",
+        "Fairmount",
+        "Falling Water",
+        "Georgetown",
+        "Harrison",
+        "Hixson",
+        "Lakesite",
+        "Lookout Mountain",
+        "Lupton City",
+        "Middle Valley",
+        "Ooltewah",
+        "Red Bank",
+        "Ridgeside",
+        "Sale Creek",
+        "Signal Mountain",
+        "Soddy",
+        "Daisy",
+        "Walden"
+    ],
+    "cities":   {
+        "Chattanooga": {
+            "rate":     0.02309,
+            "items":    [
+                {
+                    "rate": 0.00017652671111320221,
+                    "name": "Executive"
+                },
+                {
+                    "rate": 0.005905079990166557,
+                    "name": "Police"
+                },
+                {
+                    "rate": 0.0005473925897713371,
+                    "name": "General services"
+                },
+                {
+                    "rate": 0.0006522134112637621,
+                    "name": "Economic and community development"
+                },
+                {
+                    "rate": 0.0007615833560271007,
+                    "name": "Transportation"
+                },
+                {
+                    "rate": 0.0009002577416956809,
+                    "name": "Youth and family development"
+                },
+                {
+                    "rate": 0.004111849904770867,
+                    "name": "Fire"
+                },
+                {
+                    "rate": 0.00019936467008563091,
+                    "name": "Human resources"
+                },
+                {
+                    "rate": 0.003146256284511151,
+                    "name": "Public works"
+                },
+                {
+                    "rate": 0.0006011094856027101,
+                    "name": "Finance and administration"
+                },
+                {
+                    "rate": 0.006088365854992001,
+                    "name": "General government and agencies"
+                }
+            ]
+        },
+        "East Ridge": {
+            "rate":     0.014227
+        },
+        "Red Bank": {
+            "rate":     0.013561
+        },
+        "Soddy-Daisy": {
+            "rate":     0.013524
+        },
+        "Collegedale": {
+            "rate":     0.013713
+        },
+        "Ridgeside": {
+            "rate":     0.019063
+        },
+        "Lakesite": {
+            "rate":     0.002352
+        },
+        "Walden": {
+            "rate":     0.004290
+        },
+        "Lookout Mountain": {
+            "rate":     0.0162
+        },
+        "Signal Mountain": {
+            "rate":     0.015684
+        }
+    },
+    "county":   {
+        "name":         "Hamilton",
+        "state":        "TN",
+        "rate":         0.027652,
+        "items":        [
+            {
+                "name": "General Fund",
+                "rate": 0.013816
+            },
+            {
+                "name": "School Fund",
+                "rate": 0.013726
+            },
+            {
+                "name": "District Road Fund",
+                "rate": 0.00011
+            }
+        ]
+    },
+    "validZips":    [
+        "37302",
+        "37304",
+        "37373",
+        "37308",
+        "37414",
+        "37424",
+        "37414",
+        "37424",
+        "37401",
+        "37402",
+        "37403",
+        "37404",
+        "37405",
+        "37406",
+        "37407",
+        "37408",
+        "37409",
+        "37410",
+        "37411",
+        "37412",
+        "37414",
+        "37415",
+        "37416",
+        "37419",
+        "37421",
+        "37422",
+        "37424",
+        "37450",
+        "37424",
+        "37363",
+        "37315",
+        "37412",
+        "37341",
+        "37343",
+        "37379",
+        "37350",
+        "37351",
+        "37363",
+        "37415",
+        "37304",
+        "37373",
+        "37377",
+        "37379",
+        "37384",
+        "37379"
+    ]
+}

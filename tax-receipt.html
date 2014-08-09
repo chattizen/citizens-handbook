@@ -1,0 +1,95 @@
+---
+title: Your Tax Receipt
+layout: default
+permalink: /tax-receipt/
+script: tax-receipt
+stylesheet: tax-receipt
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>The tax receipt shows how residential property tax dollars are used in Chattanooga and Hamilton County.</p>
+
+<p>Select your city. Enter the value of your home. Get an easy-to-read summary of how your tax dollars are spent.</p>
+
+<noscript>
+    <p class="alert alert-danger"><strong>You must enable JavaScript to use this calculator.</strong></p>
+</noscript>
+
+<div class="row">
+    <form role="form" action="" method="GET" id="calculator" class="requires-js">
+        <ol class="fields">
+            <li class="field" data-step="1">
+                <p class="help-block">Where do you live?</p>
+                <label for="id_zip">ZIP Code</label>
+                <input type="text" name="zip" id="id_zip" pattern="[\d]{5}(-[\d]{4})?" required autofocus tabindex="1">
+            </li>
+            <li class="field" data-step="3">
+                <p class="help-block">Enter either your property value or<br>how much you paid in taxes</p>
+                <label for="id_property-value">Property Value</label>
+                <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="number" min="0" step="1" name="property-value" id="id_property-value" tabindex="4">
+                   <span class="input-group-addon">.00</span>
+                </div>
+            </li>
+            <li class="field" data-step="3" id="city-taxes">
+                <label for="id_city-taxes">City Taxes</label>
+                <div class="input-group">
+                   <span class="input-group-addon">$</span>
+                   <input type="number" min="0" step="1" name="city-taxes" id="id_city-taxes" tabindex="5">
+                   <span class="input-group-addon">.00</span>
+                </div>
+            </li>
+            <li class="field" data-step="3">
+                <label for="id_county-taxes">County Taxes</label>
+                <div class="input-group">
+                   <span class="input-group-addon">$</span>
+                   <input type="number" min="0" step="1" name="county-taxes" id="id_county-taxes" tabindex="6">
+                   <span class="input-group-addon">.00</span>
+                </div>
+            </li>
+            <li class="buttons" data-step="3">
+                <button type="submit" class="btn" tabindex="7">Calculate Receipt</button>
+            </li>
+        </ol>
+    </form>
+    <div id="receipt"></div>
+</div><!-- /.row -->
+<script type="text/mustache" id="template">{% raw %}
+<h2>{{ city.name }} Resident Tax Receipt</h2>
+
+{{#city.items.length}}
+<div id="city-itemized">
+    <h3>{{ city.name }} Itemized</h3>
+    {{#city.rate}}
+    <p>Tax Rate: ${{ city.rate }} per $100 in assessed value</p>
+    {{/city.rate}}
+    <dl class="line-items">
+    {{#city.items}}
+        <dt class="name-{{ index }}">{{ name }}</dt>
+        <dd class="item-{{ index }}" title="{{ percentage_formatted }}%">
+            <span class="bar" data-percentage="{{ percentage }}%"{{#old_percentage}} style="width: {{ old_percentage }}%"{{/old_percentage}}><span class="dollars">${{ amount }}</span></span>
+        </dd>
+    {{/city.items}}
+    </dl>
+</div>
+{{/city.items.length}}
+
+{{#county.items.length}}
+<div id="county-itemized">
+    <h3>{{ county.name }} County Itemized</h3>
+    {{#county.rate}}
+    <p>Tax Rate: ${{ county.rate }} per $100 in assessed value</p>
+    {{/county.rate}}
+    <dl class="line-items">
+    {{#county.items}}
+        <dt class="name-{{ index }}">{{ name }}</dt>
+        <dd class="item-{{ index }}" title="{{ percentage_formatted }}%">
+            <span class="bar" data-percentage="{{ percentage }}%"{{#old_percentage}} style="width: {{ old_percentage }}%"{{/old_percentage}}><span class="dollars">${{ amount }}</span></span>
+        </dd>
+    {{/county.items}}
+    </dl>
+</div>
+{{/county.items.length}}{% endraw %}
+</script>

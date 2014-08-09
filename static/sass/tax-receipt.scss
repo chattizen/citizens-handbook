@@ -1,0 +1,409 @@
+@charset "UTF-8";
+@import "bourbon";
+@import "variables";
+@import "mixins";
+
+@include keyframes(moveCalcLg) {
+    from {
+        margin-left: 425px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@include keyframes(moveCalcMd) {
+    from {
+        margin-left: 325px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@include keyframes(moveCalcSm) {
+    from {
+        margin-left: 215px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+
+#main {
+    text-align: center;
+    h1,
+    p {
+        max-width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        text-align: left;
+    }
+    .row {
+        margin-top: 2em;
+    }
+}
+
+#calculator {
+    text-align: left;
+    padding: 20px;
+    background: mix($black, $white, 5%);
+    border-radius: 5px;
+    max-width: 320px;
+    min-width: 280px;
+    .boxsizing & {
+        min-width: 320px;
+    }
+    margin: 0 auto 0 auto;
+    color: mix($black, $white, 75%);
+    .calculated & {
+        @media (min-width:768px) {
+            float: left;
+        }
+    }
+    ol {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    [data-step="2"] {
+        .btn {
+            margin-left: 20px;
+        }
+    }
+    .buttons {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .help-block {
+        margin-top: 0;
+        margin-bottom: 0.25em;
+        font-weight: bold;
+    }
+    .alert {
+        margin: 1em 0;
+    }
+    .field {
+        opacity: 1;
+        @include transition(opacity 0.2s);
+    }
+    .input-group {
+        display: inline-table;
+        vertical-align: middle;
+        @extend %input;
+
+        #{$all-text-inputs},
+        textarea {
+            @extend %input_reset;
+        }
+
+        > * {
+            display: table-cell;
+        }
+
+        .input-group-addon,
+        .input-group-btn,
+        .form-control {
+            width: auto;
+        }
+    }
+    html.js & {
+        [data-step] {
+            opacity: 0;
+            height: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            @include transition('opacity 0.5s, height 0.5s, margin-top 0.5s');
+        }
+        [data-step="1"],
+        [data-available="true"] {
+            opacity: 1;
+            height: auto;
+            &.has-success {
+                opacity: 0.75;
+            }
+        }
+        [data-available="true"] {
+            margin-top: 15px;
+        }
+        [data-step="2"] + [data-step="3"][data-available="true"] {
+            margin-top: 2em;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .calculated.animate {
+        #calculator {
+            @include animation(moveCalcSm 0.5s linear 1);
+            margin-left: 0;
+            width: 320px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .calculated.animate {
+        #calculator {
+            @include animation(moveCalcMd 0.5s linear 1);
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .calculated.animate {
+        #calculator {
+            @include animation(moveCalcLg 0.5s linear 1);
+        }
+    }
+}
+
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+#id_zip {
+    max-width: 8.5em;
+}
+
+#id_city + .input-group-addon {
+    border: 0;
+    padding: 0 0 0 12px;
+}
+
+#id_property-value,
+#id_city-taxes,
+#id_county-taxes {
+    text-align: right;
+}
+
+#city-taxes {
+    padding-top: 15px;
+    border-top: 1px solid $gray;
+    position: relative;
+    &:before {
+        content: "or";
+        background: mix($black, $white, 5%);
+        color: $gray;
+        display: inline-block;
+        position: absolute;
+        top: -0.75em;
+        left: 50%;
+        padding: 0 0.25em;
+        margin-left: -0.75em;
+    }
+    html.js & {
+        &:not([data-available="true"]) {
+            padding-top: 0;
+            border-top: 0;
+        }
+    }
+}
+
+#receipt {
+    opacity: 0;
+    color: mix($black, $white, 75%);
+    .calculated & {
+        opacity: 1;
+        padding: 20px;
+        &:empty {
+            opacity: 0;
+        }
+    }
+    .animate & {
+        @include transition(opacity 0.5s 0.51s linear);
+    }
+    background: mix($black, $white, 5%);
+    border-radius: 5px;
+    h2 {
+        margin-top: 0;
+    }
+    .rates {
+        dd {
+            margin-bottom: 1em;
+        }
+    }
+    margin-top: 20px;
+    @include clearfix;
+}
+
+#city-itemized,
+#county-itemized {
+    h3 {
+        padding-bottom: 0.25em;
+        border-bottom: 1px solid $gray;
+    }
+}
+
+@media (min-width: 992px) {
+    #city-itemized,
+    #county-itemized {
+        width: 48%;
+        float: left;
+    }
+    #county-itemized {
+        float: right;
+    }
+}
+
+.line-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    dt {
+        margin: 1em 0 0;
+        display: block;
+    }
+    dd {
+        margin: 0;
+        padding: 0;
+        display: block;
+        @include clearfix;
+        position: relative;
+        border-radius: 5px;
+    }
+    .bar {
+        overflow: visible;
+        white-space: nowrap;
+        padding: 4px 0;
+        border-radius: 5px;
+        display: block;
+        height: 1.5em;
+        width: 0;
+        @include transition(width 0.5s ease-out);
+    }
+    .item-1 {
+        background-color: mix($green, lighten($gray, 10%), 10%);
+        .bar {
+            background-color: $green;
+        }
+    }
+    .item-2 {
+        background-color: mix($teal, lighten($gray, 10%), 10%);
+        .bar {
+            background-color: $teal;
+        }
+    }
+    .item-3 {
+        background-color: mix($blue, lighten($gray, 10%), 10%);
+        .bar {
+            background-color: $blue;
+        }
+    }
+    .item-4 {
+        background-color: mix($blueLight, lighten($gray, 10%), 10%);
+        .bar {
+            background-color: $blueLight;
+        }
+    }
+    .item-5 {
+        background-color: mix($red, lighten($gray, 10%), 10%);
+        .bar {
+            background-color: $red;
+        }
+    }
+    .item-6 {
+        background-color: mix($orange, lighten($gray, 10%), 10%);
+        .bar {
+            background-color: $orange;
+        }
+    }
+    .dollars {
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        margin-top: -0.63em;
+    }
+}
+
+@media (min-width: 768px) {
+    #receipt {
+        margin-top: 0;
+    }
+    html.no-flexbox,
+    html.no-js {
+        .calculated {
+            #calculator {
+                float: left;
+                margin-right: 20px;
+            }
+            #receipt {
+                float: right;
+            }
+        }
+    }
+    html.flexbox {
+        #main {
+            .row {
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex: 1 1 auto;
+                -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+                -webkit-flex-flow: row nowrap;
+                -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap;
+                -webkit-align-items: top;
+                -ms-align-items: top;
+                flex-align: top;
+                -ms-justify-content: flex-start;
+                -webkit-justify-content: flex-start;
+                justify-content: flex-start;
+            }
+        }
+        .calculated {
+            #calculator {
+                margin-right: 20px;
+            }
+            #receipt {
+                width: 750px - 340px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    html.flexbox {
+        .calculated {
+            #receipt {
+                width: 970px - 340px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    html.flexbox {
+        .calculated {
+            #receipt {
+                width: 1170px - 340px;
+            }
+        }
+    }
+    #receipt {
+        .rates {
+            dt,
+            dd {
+                @include inline-block;
+                margin: 0 0.25em;
+            }
+            dt {
+                margin-left: 2em;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
