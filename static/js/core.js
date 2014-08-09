@@ -47,11 +47,23 @@ if (!Array.prototype.filter)
     maps            =   $('.map'),
     corejs          =   $('#corejs'),
     division        =   $('#division'),
-    noop            =   function() {};
+    sidebar         =   $('#sb'),
+    main            =   $('#main'),
+    noop            =   function() {},
+    protos          =   {
+        'li':   $('<li />'),
+        'a':    $('<a />')
+    };
 
     chattizen.apiKeys   =   {
         'google':       corejs.data('google-api-key'),
         'sunlight':     corejs.data('sunlight-api-key')
+    };
+
+    chattizen.utils     =   {
+        'slugify':  function(text) {
+            return String(text).toLowerCase().replace(/ +/g, '-').replace(/[^\w-]+/g, '');
+        }
     };
 
     showNav.on('click', function() {
@@ -124,5 +136,29 @@ if (!Array.prototype.filter)
             ['https://api.opencivicdata.org/ocd-division', ocd_id, '?apikey=', chattizen.apiKeys.sunlight, '&callback=?'].join('')
         ).done(callback || noop).fail(errCallback || noop);
     }
+
+    function tableOfContents() {
+        var
+        headers     =   main.find(':header'),
+        i           =   headers.length,
+        toc         =   $('<nav id="toc" role="navigation" class="section" />'),
+        tocList     =   $('<ul />').appendTo(toc);
+        if(headers.length && sidebar.length) {
+            sidebar.prepend(toc);
+            toc.prepend('<p class="label">On this page</p>');
+            while(i--) {
+                var
+                header  =   $(headers[i]),
+                item    =   protos.li.clone(),
+                link    =   protos.a.clone();
+                if(!header.attr('id')) {
+                    header.attr('id', chattizen.utils.slugify(header.text()));
+                }
+                link.attr({title: header.text(), href: '#' + header.attr('id')}).text(header.text());
+                item.append(link).prependTo(tocList);
+            }
+        }
+    }
+    tableOfContents();
 
 })(window.jQuery, window.Modernizr);

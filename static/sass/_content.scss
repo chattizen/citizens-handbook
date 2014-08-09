@@ -124,3 +124,26 @@ img[data-src] {
         }
     }
 }
+
+#sb {
+    .section {
+        margin: 2em auto 0;
+        font-size: em(16, 12.8);
+        &:first-child {
+            margin-top: 0;
+        }
+        > :first-child {
+            margin-top: 0;
+        }
+        .label {
+            font-weight: bold;
+            color: $grayDark;
+        }
+        li {
+            margin: 0.5em auto 0;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+}
