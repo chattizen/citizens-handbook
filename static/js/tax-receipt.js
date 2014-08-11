@@ -202,20 +202,6 @@
                 }, 700);
             }
         }
-        window.console.debug(
-            {
-                "city": {
-                    "name": city,
-                    "rate": (localData.cities[city].rate * 100).toFixed(2),
-                    "items": calculateItems(localData.cities[city].items || [])
-                },
-                "county": {
-                    "name": localData.county.name,
-                    "rate": (localData.county.rate * 100).toFixed(2),
-                    "items": calculateItems(localData.county.items || [])
-                }
-            }
-        );
         receipt.html(
             Mustache.render(
                 receiptTemplate,
@@ -269,30 +255,31 @@
                 e.target.selectionStart =   cursor;
                 e.target.selectionEnd   =   cursor;
             } catch(err) {}
-            if(e.type && e.type === 'keyup') {
+            if(e.type && e.type === 'keyup' && input.val()) {
                 input.data('manual-input', true);
             }
             switch(input.attr('id')) {
                 case 'id_property-value':
                     propertyValue   =   amount;
-                    if(!cityTaxesInput.data('manual-input') && city in localData.cities) {
-                        cityTaxes   =   Math.round(amount * localData.cities[city].rate);
-                        cityTaxesInput.val(cityTaxes);
+                    if((!cityTaxesInput.data('manual-input') || !cityTaxesInput.val()) && city in localData.cities) {
+                        cityTaxes   =   Math.round((amount * 0.25) * localData.cities[city].rate);
+                        cityTaxesInput.val(cityTaxes || '').data('manual-input', false);
                     }
-                    if(!countyTaxesInput.data('manual-input')) {
-                        countyTaxes =   Math.round(amount * localData.county.rate);
-                        countyTaxesInput.val(countyTaxes);
+                    if(!countyTaxesInput.data('manual-input') || !countyTaxesInput.val()) {
+                        countyTaxes =   Math.round((amount * 0.25) * localData.county.rate);
+                        countyTaxesInput.val(countyTaxes || '').data('manual-input', false);
                     }
                     break;
                 case 'id_city-taxes':
                     cityTaxes       =   amount;
-                    if(!propertyValueInput.data('manual-input') && city in localData.cities) {
-                        propertyValue   =   Math.round((amount / (localData.cities[city].rate * 100)) * 100);
-                        propertyValueInput.val(propertyValue);
+                    if((!propertyValueInput.data('manual-input') || !propertyValueInput.val()) && city in localData.cities) {
+                        propertyValue   =   Math.round((amount / (localData.cities[city].rate * 100)) * 400);
+                        propertyValueInput.val(propertyValue).data('manual-input', false);
                     }
-                    if(!countyTaxesInput.data('manual-input')) {
-                        countyTaxes     =   Math.round(localData.county.rate * (propertyValue ? propertyValue : 0));
-                        countyTaxesInput.val(countyTaxes);
+                    if(!countyTaxesInput.data('manual-input') || !countyTaxesInput.val()) {
+                        window.console.debug('calculating county taxes', localData.county.rate, propertyValue);
+                        countyTaxes     =   Math.round(localData.county.rate * (propertyValue ? propertyValue * 0.25 : 0));
+                        countyTaxesInput.val(countyTaxes || '').data('manual-input', false);
                     }
                     break;
                 case 'id_county-taxes':
