@@ -12,15 +12,15 @@ The board consists of nine elected representatives. Board members are elected fr
 
 Members serve staggered four-year terms — approximately half of the board is elected every two years — and they are not term-limited. School board elections are nonpartisan.
 
-+ [District 1: Rhonda Thurman](./district-1.html)
-+ [District 2: Jonathan Welch](./district-2.html)
-+ [District 3: Greg Martin](./district-3.html)
-+ [District 4: George Ricks](./district-4.html)
-+ [District 5: Jeffrey Wilson](./district-5.html)
-+ [District 6: Joe Galloway](./district-6.html)
-+ [District 7: Donna Horn](./district-7.html)
-+ [District 8: David Testerman](./district-8.html)
-+ [District 9: Mike Evatt, Chair](./district-9.html)
++ [District 1: Rhonda Thurman](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='48902')
++ [District 2: Jonathan Welch](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=BoardMembers&SubP=Board&DivisionID=14291&DepartmentID=0&SubDepartmentID=0&StaffID='45747')
++ [District 3: Greg Martin](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=BoardMembers&SubP=Board&DivisionID=14291&DepartmentID=0&SubDepartmentID=0&StaffID='45764')
++ [District 4: George Ricks](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='45576')
++ [District 5: Jeffrey Wilson](http://www.hcde.org/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='49210')
++ [District 6: Joe Galloway](http://www.hcde.org/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='46558')
++ [District 7: Donna Horn](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=BoardMembers&SubP=Board&DivisionID=14291&DepartmentID=0&SubDepartmentID=0&StaffID='45583')
++ [District 8: David Testerman](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='45575')
++ [District 9: Mike Evatt, Chair](http://www.hcde.org/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='46559')
 
 The school board is responsible for the public school system in Hamilton County. It follows the policies, rules and regulations set by the Tennessee Board of Education and enforces them on a local level.
 
