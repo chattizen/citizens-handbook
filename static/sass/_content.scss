@@ -147,7 +147,8 @@ img[data-src] {
         ul {
             margin-top: -0.5em;
         }
-        li {
+        li,
+        .map {
             margin: 0.5em auto 0;
         }
     }
@@ -155,5 +156,16 @@ img[data-src] {
         margin-top: 1em;
         padding-top: 1em;
         border-top: 1px solid $gray;
+    }
+    #tools {
+        li {
+            margin-left: 1.5em;
+            text-indent: -1.5em;
+            position: relative;
+            z-index: 1;
+        }
+        .fa {
+            text-indent: 0;
+        }
     }
 }

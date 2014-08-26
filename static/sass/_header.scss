@@ -17,14 +17,28 @@
 }
 
 #brand {
-    display: block;
-    width: 180px;
-    height: 60px;
-    color: $brand;
     float: left;
-    margin: 0;
-    @include hide-text;
-    @include retina-image("../img/mark-white", 180px 60px);
+    white-space: nowrap;
+    i {
+        display: inline-block;
+        width: 180px;
+        height: 60px;
+        color: $brand;
+        margin: 0;
+        float: left;
+        @include hide-text;
+        @include retina-image("../img/mark-white", 180px 60px);
+    }
+    b {
+        display: inline-block;
+        color: $white;
+        margin-left: 0.5em;
+        text-transform: uppercase;
+        font-weight: normal;
+        height: 60px;
+        line-height: 60px;
+        opacity: 0.7;
+    }
 }
 
 #show-nav {

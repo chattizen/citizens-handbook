@@ -22,15 +22,15 @@ The Chattanooga City Council is a legislative body. It oversees many of the admi
 
 The city is divided into nine districts. Each district elects one council member. While all nine districts have about the same number of people living in them, each different has different priorities. 
 
-+ [District 1: Chip Henderson, Chair](./district-1.html)
-+ [District 2: Jerry Mitchell](./district-2.html)
-+ [District 3: Ken Smith](./district-3.html)
-+ [District 4: Larry Grohn](./district-4.html)
-+ [District 5: Russell Gilbert](./district-5.html)
-+ [District 6: Carol Berz, Vice-chair](./district-6.html)
-+ [District 7: Chris Anderson](./district-7.html)
-+ [District 8: Moses Freeman](./district-8.html)
-+ [District 9: Yusuf Hakeem](./district-9.html)
++ [District 1: Chip Henderson, Chair](http://www.chattanooga.gov/city-council/council-members/chip-henderson-district-1)
++ [District 2: Jerry Mitchell](http://www.chattanooga.gov/city-council/council-members/jerry-mitchell-district-2)
++ [District 3: Ken Smith](http://www.chattanooga.gov/city-council/council-members/ken-smith-district-3)
++ [District 4: Larry Grohn](http://www.chattanooga.gov/city-council/council-members/larry-grohn-district-4)
++ [District 5: Russell Gilbert](http://www.chattanooga.gov/city-council/council-members/russell-gilbert-district-5)
++ [District 6: Carol Berz, Vice-chair](http://www.chattanooga.gov/city-council/council-members/carol-b-berz-district-6)
++ [District 7: Chris Anderson](http://www.chattanooga.gov/city-council/council-members/chris-anderson-district-7)
++ [District 8: Moses Freeman](http://www.chattanooga.gov/city-council/council-members/moses-freeman-district-8)
++ [District 9: Yusuf Hakeem](http://www.chattanooga.gov/city-council/council-members/yusuf-hakeem-district-9)
 
 ### Meetings
 
