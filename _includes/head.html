@@ -23,6 +23,7 @@
         <meta property="og:url" content="http://chattizen.org{{ page.url | canonical | replace: 'index.html','' }}">
         <meta property="og:image" content="http://chattizen.org{% if page.og.image %}{{ page.og.image }}{% else %}{% if page.hero.src %}/static/img/{{ page.hero.src }}{% else %}/static/img/social-icon.png{% endif %}{% endif %}">
         <meta property="og:site_name" content="{{ site.name }}">
+        <meta property="fb:page_id" content="482736258504666">
         {% if page.ocdid %}
         <meta name="opencivicdata_id" content="/ocd-division{{ page.ocdid }}">
         {% endif %}
