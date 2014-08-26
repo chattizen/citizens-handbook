@@ -17,11 +17,11 @@
         <link type="text/plain" rel="author" href="/humans.txt">
         <link rel="alternate" type="application/atom+xml" href="/atom.xml">
 
-        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:title" content="Chattizen: {% if page.og.title %}{{ page.og.title }}{% else %}{{ page.title }}{% endif %}">
         <meta property="og:description" content="{% if page.og.description %}{{ page.og.description }}{% else %}{% if page.description %}{{ page.description }}{% endif %}{% endif %}">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ page.url | canonical | replace: 'index.html','' }}">
-        <meta property="og:image" content="{% if page.og.image %}{{ page.og.image }}{% else %}{% if page.hero.src %}/static/img/{{ page.hero.src }}{% else %}/static/img/social-icon.png{% endif %}{% endif %}">
+        <meta property="og:url" content="http://chattizen.org{{ page.url | canonical | replace: 'index.html','' }}">
+        <meta property="og:image" content="http://chattizen.org{% if page.og.image %}{{ page.og.image }}{% else %}{% if page.hero.src %}/static/img/{{ page.hero.src }}{% else %}/static/img/social-icon.png{% endif %}{% endif %}">
         <meta property="og:site_name" content="{{ site.name }}">
         {% if page.ocdid %}
         <meta name="opencivicdata_id" content="/ocd-division{{ page.ocdid }}">
