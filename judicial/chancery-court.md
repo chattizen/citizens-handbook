@@ -5,7 +5,7 @@ categories:
     - judicial
 ---
 
-+ Chancellor Frank Brown, Part I
++ Chancellor Pam McNutt Fleenor, Part I
 + Chancellor Jeffrey Atherton, Part II
 
 

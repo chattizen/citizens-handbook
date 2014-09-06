@@ -5,7 +5,7 @@ categories:
     - judicial
 ---
 
-+ Judge Jacqueline Bolton, Division 1
++ Judge JB Bennett, Division 1
 + Judge Jeff Hollingsworth, Division 2
 + Judge Marie Williams, Division 3
 + Judge Neil Thomas, Division 4
