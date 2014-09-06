@@ -54,8 +54,8 @@ The office also collects property taxes for other municipalities, excluding Chat
 
 ### Court Clerks
 
-Circuit Court Clerk Paula Thompson  
-Criminal Court Clerk Gwen Tidwell  
+Circuit Court Clerk Larry Henry  
+Criminal Court Clerk Vince Dean  
 Juvenile Court Clerk Gary Behler  
 Clerk and Master Lee Akers (appointed)
 

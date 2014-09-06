@@ -21,15 +21,15 @@ The Hamilton County Commission is a legislative body. It primarily oversees the 
 
 The county is divided into nine districts. Each district elects one commissioner every four years.
 
-+ [District 1: Fred Skillern, Chair](http://www.hamiltontn.gov/Commission/districts/1.aspx)
-+ [District 2: James Fields](http://www.hamiltontn.gov/Commission/districts/2.aspx)
++ [District 1: Randy Fairbanks](http://www.hamiltontn.gov/Commission/districts/1.aspx)
++ [District 2: James Fields, Chair](http://www.hamiltontn.gov/Commission/districts/2.aspx)
 + [District 3: Marty Haynes](http://www.hamiltontn.gov/Commission/districts/3.aspx)
 + [District 4: Warren Mackey](http://www.hamiltontn.gov/Commission/districts/4.aspx)
 + [District 5: Greg Beck](http://www.hamiltontn.gov/Commission/districts/5.aspx)
 + [District 6: Joe Graham](http://www.hamiltontn.gov/Commission/districts/6.aspx)
-+ [District 7: Larry Henry](http://www.hamiltontn.gov/Commission/districts/7.aspx)
++ [District 7: Sabrena Turner-Smedley](http://www.hamiltontn.gov/Commission/districts/7.aspx)
 + [District 8: Tim Boyd](http://www.hamiltontn.gov/Commission/districts/8.aspx)
-+ [District 9: Chester Bankston](http://www.hamiltontn.gov/Commission/districts/9.aspx)
++ [District 9: Chester Bankston, Vice Chair](http://www.hamiltontn.gov/Commission/districts/9.aspx)
 
 Commission districts coincide with districts of the Hamilton County Board of Education.
 

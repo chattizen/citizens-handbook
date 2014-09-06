@@ -5,7 +5,7 @@ categories:
     - judicial
 ---
 
-+ Bill Cox
++ Neal Pinkston
 
 The [district attorney](http://chattanoogada.com) prosecutes criminal cases before the general sessions and criminal courts, and he prosecutes juvenile delinquency cases brought before juvenile court.
 

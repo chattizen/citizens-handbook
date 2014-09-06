@@ -5,7 +5,7 @@ categories:
     - judicial
 ---
 
-+ Judge Christie Sell, Division 1
++ Judge Christie Mahn Sell, Division 1
 + Judge David Bales, Division 2
 + Judge Clarence Shattuck, Division 3
 + Judge Lila Statom, Division 4

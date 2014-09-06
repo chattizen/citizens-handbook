@@ -16,11 +16,11 @@ Members serve staggered four-year terms — approximately half of the board is e
 + [District 2: Jonathan Welch](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=BoardMembers&SubP=Board&DivisionID=14291&DepartmentID=0&SubDepartmentID=0&StaffID='45747')
 + [District 3: Greg Martin](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=BoardMembers&SubP=Board&DivisionID=14291&DepartmentID=0&SubDepartmentID=0&StaffID='45764')
 + [District 4: George Ricks](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='45576')
-+ [District 5: Jeffrey Wilson](http://www.hcde.org/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='49210')
++ District 5: Karitsa Mosley
 + [District 6: Joe Galloway](http://www.hcde.org/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='46558')
 + [District 7: Donna Horn](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=BoardMembers&SubP=Board&DivisionID=14291&DepartmentID=0&SubDepartmentID=0&StaffID='45583')
 + [District 8: David Testerman](http://hamiltoncountyde.schoolinsites.com/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='45575')
-+ [District 9: Mike Evatt, Chair](http://www.hcde.org/Default.asp?PN=StaffList&SubP='Staff'&DivisionID=14291&DepartmentID=&SubDepartmentID=&StaffID='46559')
++ Steve Highlander
 
 The school board is responsible for the public school system in Hamilton County. It follows the policies, rules and regulations set by the Tennessee Board of Education and enforces them on a local level.
 
